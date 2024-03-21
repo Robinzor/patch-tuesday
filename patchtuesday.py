@@ -1,3 +1,7 @@
+# Original script: https://github.com/Immersive-Labs-Sec/msrc-api
+# Script modified by Robinzor
+# Licensed under the MIT License: https://opensource.org/licenses/MIT
+
 import argparse
 import requests
 import re
