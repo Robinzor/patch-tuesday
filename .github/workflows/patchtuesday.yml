@@ -34,7 +34,9 @@ jobs:
         run: |
           git config --local user.email "info@robinzor.nl"
           git config --local user.name "Robinzor"
-          git add .
+          mkdir -p history
+          mv 2024_Mar.txt history/
+          git add history/
           git commit -m "Update Patch Tuesday report"
           git push
         env:
