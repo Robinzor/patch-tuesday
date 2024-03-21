@@ -32,6 +32,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
+          git config --local user.email "info@robinzor.nl"
+          git config --local user.name "Robinzor"
           git add .
           git commit -m "Update Patch Tuesday report"
           git push
