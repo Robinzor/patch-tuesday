@@ -1,0 +1,40 @@
+name: Patch Tuesday
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Every second Tuesday of the month at 00:00 UTC
+    - cron: '0 0 * * 2'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Patch Tuesday script
+        run: |
+          if [ "${{ github.event_name }}" == "workflow_dispatch" ]; then
+            python patchtuesday.py "$(date +'%Y-%b')" --force
+          else
+            python patchtuesday.py "$(date +'%Y-%b')"
+          fi
+
+      - name: Commit changes
+        if: github.event_name != 'workflow_dispatch'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "Update Patch Tuesday report"
+          git push
