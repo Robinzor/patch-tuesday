@@ -32,8 +32,6 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.email "info@robinzor.nl"
-          git config --local user.name "Robinzor"
           mkdir -p history
           mv 2024_Mar.txt history/
           git add history/
