@@ -6,11 +6,10 @@ import argparse
 import requests
 import re
 import datetime
+import os
 
 base_url = 'https://api.msrc.microsoft.com/cvrf/v2.0/'
-
 headers = {'Accept': 'application/json'}
-
 vuln_types = [
     'Elevation of Privilege',
     'Security Feature Bypass',
@@ -52,7 +51,6 @@ def count_exploited(all_vulns):
         cvss_sets = vuln.get('CVSSScoreSets', [])
         if len(cvss_sets) > 0 :
             cvss_score = cvss_sets[0].get('BaseScore', 0.0)
-
         for threat in vuln['Threats']:
             if threat['Type'] == 1:
                 description = threat['Description']['Value']
@@ -91,9 +89,7 @@ def main():
     parser = argparse.ArgumentParser(description='Read vulnerability stats for a patch tuesday release.')
     parser.add_argument('security_update', help="Date string for the report query in format YYYY-mmm")
     parser.add_argument('--force', action='store_true', help="Force execution regardless of the date")
-
     args = parser.parse_args()
-
     today = datetime.date.today()
     second_tuesday = get_second_tuesday(today.year, today.month)
 
@@ -116,14 +112,12 @@ def run_patch_tuesday(args):
         exit()
 
     release_json = get_sec_release.json()
-
     title = release_json.get('DocumentTitle', 'Release not found').get('Value')
-
     all_vulns = release_json.get('Vulnerability', [])
-
     len_vuln = len(all_vulns)
-
-    output_filename = f"{args.security_update.replace('-', '_')}.txt"
+    output_directory = "history"
+    filename = f"{args.security_update.replace('-', '_')}.txt"
+    output_filename = os.path.join(output_directory, filename)
 
     with open(output_filename, 'w') as output_file:
         output_file.write("[+] Microsoft Patch Tuesday Stats\n")
