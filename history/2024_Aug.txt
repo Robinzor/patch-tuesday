@@ -1,0 +1,71 @@
+[+] Microsoft Patch Tuesday Stats
+[+] August 2024 Security Updates
+[+] Found a total of 185 vulnerabilities
+  [-] 36 Elevation of Privilege Vulnerabilities
+  [-] 4 Security Feature Bypass Vulnerabilities
+  [-] 28 Remote Code Execution Vulnerabilities
+  [-] 8 Information Disclosure Vulnerabilities
+  [-] 6 Denial of Service Vulnerabilities
+  [-] 7 Spoofing Vulnerabilities
+  [-] 11 Edge - Chromium Vulnerabilities
+[+] Found 6 exploited in the wild
+  [-] CVE-2024-38178 - 7.5 - Scripting Engine Memory Corruption Vulnerability
+  [-] CVE-2024-38193 - 7.8 - Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
+  [-] CVE-2024-38213 - 6.5 - Windows Mark of the Web Security Feature Bypass Vulnerability
+  [-] CVE-2024-38106 - 7.0 - Windows Kernel Elevation of Privilege Vulnerability
+  [-] CVE-2024-38107 - 7.8 - Windows Power Dependency Coordinator Elevation of Privilege Vulnerability
+  [-] CVE-2024-38189 - 8.8 - Microsoft Project Remote Code Execution Vulnerability
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2022-2601 - 8.6 - Redhat: CVE-2022-2601 grub2 - Buffer overflow in grub_font_construct_glyph() can lead to out-of-bound write and possible secure boot bypass
+  [-] CVE-2024-38108 - 9.3 - Azure Stack Hub Spoofing Vulnerability
+  [-] CVE-2024-38159 - 9.1 - Windows Network Virtualization Remote Code Execution Vulnerability
+  [-] CVE-2024-38160 - 9.1 - Windows Network Virtualization Remote Code Execution Vulnerability
+  [-] CVE-2024-38199 - 9.8 - Windows Line Printer Daemon (LPD) Service Remote Code Execution Vulnerability
+  [-] CVE-2023-40547 - 8.3 - Redhat: CVE-2023-40547 Shim - RCE in HTTP boot support may lead to secure boot bypass
+  [-] CVE-2024-38063 - 9.8 - Windows TCP/IP Remote Code Execution Vulnerability
+  [-] CVE-2024-29995 - 8.1 - Windows Kerberos Elevation of Privilege Vulnerability
+  [-] CVE-2024-38114 - 8.8 - Windows IP Routing Management Snapin Remote Code Execution Vulnerability
+  [-] CVE-2024-38115 - 8.8 - Windows IP Routing Management Snapin Remote Code Execution Vulnerability
+  [-] CVE-2024-38116 - 8.8 - Windows IP Routing Management Snapin Remote Code Execution Vulnerability
+  [-] CVE-2024-38121 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2024-38128 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2024-38130 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2024-38131 - 8.8 - Clipboard Virtual Channel Extension Remote Code Execution Vulnerability
+  [-] CVE-2024-38140 - 9.8 - Windows Reliable Multicast Transport Driver (RMCAST) Remote Code Execution Vulnerability
+  [-] CVE-2024-38144 - 8.8 - Kernel Streaming WOW Thunk Service Driver Elevation of Privilege Vulnerability
+  [-] CVE-2024-38154 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2024-38180 - 8.8 - Windows SmartScreen Security Feature Bypass Vulnerability
+  [-] CVE-2024-38189 - 8.8 - Microsoft Project Remote Code Execution Vulnerability
+  [-] CVE-2024-38211 - 8.2 - Microsoft Dynamics 365 (on-premises) Cross-site Scripting Vulnerability
+  [-] CVE-2024-38120 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2024-38166 - 8.2 - Microsoft Dynamics 365 Cross-site Scripting Vulnerability
+  [-] CVE-2024-38206 - 8.5 - Microsoft Copilot Studio Information Disclosure Vulnerability
+  [-] CVE-2024-38218 - 8.4 - Microsoft Edge (HTML-based) Memory Corruption Vulnerability
+  [-] CVE-2024-38109 - 9.1 - Azure Health Bot Elevation of Privilege Vulnerability
+  [-] CVE-2022-36648 - 10.0 - None
+  [-] CVE-2024-39331 - 9.8 - None
+  [-] CVE-2024-41110 - 9.9 - None
+  [-] CVE-2021-3929 - 8.2 - None
+  [-] CVE-2021-4206 - 8.2 - None
+  [-] CVE-2021-4207 - 8.2 - None
+  [-] CVE-2022-35414 - 8.8 - None
+  [-] CVE-2022-3872 - 8.6 - None
+  [-] CVE-2023-29404 - 9.8 - None
+  [-] CVE-2023-29402 - 9.8 - None
+  [-] CVE-2017-17522 - 8.8 - None
+  [-] CVE-2024-2398 - 8.6 - None
+  [-] CVE-2024-6257 - 8.4 - None
+  [-] CVE-2021-3750 - 8.2 - None
+  [-] CVE-2024-38428 - 9.1 - None
+[+] Found 11 vulnerabilites more likely to be exploited
+  [-] CVE-2024-38196 -- Windows Common Log File System Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-38196
+  [-] CVE-2024-38198 -- Windows Print Spooler Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-38198
+  [-] CVE-2024-38063 -- Windows TCP/IP Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-38063
+  [-] CVE-2024-38125 -- Kernel Streaming WOW Thunk Service Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-38125
+  [-] CVE-2024-38133 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-38133
+  [-] CVE-2024-38141 -- Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-38141
+  [-] CVE-2024-38144 -- Kernel Streaming WOW Thunk Service Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-38144
+  [-] CVE-2024-38147 -- Microsoft DWM Core Library Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-38147
+  [-] CVE-2024-38148 -- Windows Secure Channel Denial of Service Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-38148
+  [-] CVE-2024-38150 -- Windows DWM Core Library Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-38150
+  [-] CVE-2024-38163 -- Windows Update Stack Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-38163
