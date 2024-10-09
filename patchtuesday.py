@@ -18,13 +18,16 @@ vuln_types = [
     'Denial of Service',
     'Spoofing',
     'Edge - Chromium'
-    ]
+]
 
 def get_second_tuesday(year, month):
+    # Start at the first day of the month
     d = datetime.date(year, month, 1)
-    offset = (1 - d.weekday() + 7) % 7
-    second_tuesday = offset + 7
-    return datetime.date(year, month, second_tuesday)
+    # Find the first Tuesday (weekday 1)
+    first_tuesday = d + datetime.timedelta(days=(1 - d.weekday() + 7) % 7)
+    # Add one week to get the second Tuesday
+    second_tuesday = first_tuesday + datetime.timedelta(weeks=1)
+    return second_tuesday
 
 def count_type(search_type, all_vulns):
     counter = 0
@@ -49,7 +52,7 @@ def count_exploited(all_vulns):
     for vuln in all_vulns:
         cvss_score = 0.0
         cvss_sets = vuln.get('CVSSScoreSets', [])
-        if len(cvss_sets) > 0 :
+        if len(cvss_sets) > 0:
             cvss_score = cvss_sets[0].get('BaseScore', 0.0)
         for threat in vuln['Threats']:
             if threat['Type'] == 1:
@@ -74,7 +77,7 @@ def exploitation_likely(all_vulns):
     return {'counter': counter, 'cves': cves}
 
 """
-check the date format is yyyy-mmm
+Check the date format is yyyy-mmm.
 """
 def check_data_format(date_string):
     date_pattern = '\\d{4}-(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)'
@@ -86,13 +89,14 @@ def print_header(title):
     print(f"[+] {title}")
 
 def main():
-    parser = argparse.ArgumentParser(description='Read vulnerability stats for a patch tuesday release.')
+    parser = argparse.ArgumentParser(description='Read vulnerability stats for a patch Tuesday release.')
     parser.add_argument('security_update', help="Date string for the report query in format YYYY-mmm")
     parser.add_argument('--force', action='store_true', help="Force execution regardless of the date")
     args = parser.parse_args()
     today = datetime.date.today()
     second_tuesday = get_second_tuesday(today.year, today.month)
 
+    # Check if today is the second Tuesday unless forced
     if not args.force and today != second_tuesday:
         print("[!] Today is not the second Tuesday of the month. Use --force to execute regardless of the date.")
         exit()
@@ -101,14 +105,14 @@ def main():
 
 def run_patch_tuesday(args):
     if not check_data_format(args.security_update):
-        print("[!] Invalid date format please use 'yyyy-mmm'")
+        print("[!] Invalid date format. Please use 'yyyy-mmm'")
         exit()
 
-    # Get the list of all vulns
+    # Get the list of all vulnerabilities
     get_sec_release = requests.get(f'{base_url}cvrf/{args.security_update}', headers=headers)
 
     if get_sec_release.status_code != 200:
-        print(f"[!] Thats a {get_sec_release.status_code} from MS no release notes yet")
+        print(f"[!] That's a {get_sec_release.status_code} from MS. No release notes yet.")
         exit()
 
     release_json = get_sec_release.json()
@@ -139,13 +143,13 @@ def run_patch_tuesday(args):
             title = vuln.get('Title', {'Value': 'Not Found'}).get('Value')
             cve_id = vuln.get('CVE', '')
             cvss_sets = vuln.get('CVSSScoreSets', [])
-            if len(cvss_sets) > 0 :
+            if len(cvss_sets) > 0:
                 cvss_score = cvss_sets[0].get('BaseScore', 0)
                 if cvss_score >= base_score:
                     output_file.write(f'  [-] {cve_id} - {cvss_score} - {title}\n')
 
         exploitation = exploitation_likely(all_vulns)
-        output_file.write(f'[+] Found {exploitation["counter"]} vulnerabilites more likely to be exploited\n')
+        output_file.write(f'[+] Found {exploitation["counter"]} vulnerabilities more likely to be exploited\n')
         for cve in exploitation['cves']:
             output_file.write(f'  [-] {cve} - https://www.cve.org/CVERecord?id={cve.split()[0]}\n')
 
