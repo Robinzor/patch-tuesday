@@ -1,6 +1,6 @@
 [+] Microsoft Patch Tuesday Stats
 [+] October 2024 Security Updates
-[+] Found a total of 166 vulnerabilities
+[+] Found a total of 168 vulnerabilities
   [-] 28 Elevation of Privilege Vulnerabilities
   [-] 7 Security Feature Bypass Vulnerabilities
   [-] 43 Remote Code Execution Vulnerabilities
@@ -44,7 +44,7 @@
   [-] CVE-2024-2398 - 8.6 - None
   [-] CVE-2023-29402 - 9.8 - None
   [-] CVE-2023-29404 - 9.8 - None
-[+] Found 9 vulnerabilites more likely to be exploited
+[+] Found 9 vulnerabilities more likely to be exploited
   [-] CVE-2024-43502 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-43502
   [-] CVE-2024-43581 -- Microsoft OpenSSH for Windows Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-43581
   [-] CVE-2024-43609 -- Microsoft Office Spoofing Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-43609
