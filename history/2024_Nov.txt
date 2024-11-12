@@ -1,17 +1,71 @@
 [+] Microsoft Patch Tuesday Stats
-[+] November 2024 Early Security Updates
-[+] Found a total of 349 vulnerabilities
-  [-] 0 Elevation of Privilege Vulnerabilities
-  [-] 0 Security Feature Bypass Vulnerabilities
-  [-] 0 Remote Code Execution Vulnerabilities
-  [-] 0 Information Disclosure Vulnerabilities
-  [-] 0 Denial of Service Vulnerabilities
-  [-] 0 Spoofing Vulnerabilities
+[+] November 2024 Security Updates
+[+] Found a total of 423 vulnerabilities
+  [-] 26 Elevation of Privilege Vulnerabilities
+  [-] 2 Security Feature Bypass Vulnerabilities
+  [-] 52 Remote Code Execution Vulnerabilities
+  [-] 1 Information Disclosure Vulnerabilities
+  [-] 4 Denial of Service Vulnerabilities
+  [-] 3 Spoofing Vulnerabilities
   [-] 2 Edge - Chromium Vulnerabilities
-[+] Found 0 exploited in the wild
+[+] Found 2 exploited in the wild
+  [-] CVE-2024-43451 - 6.5 - NTLM Hash Disclosure Spoofing Vulnerability
+  [-] CVE-2024-49039 - 8.8 - Windows Task Scheduler Elevation of Privilege Vulnerability
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2024-43602 - 9.9 - Azure CycleCloud Remote Code Execution Vulnerability
+  [-] CVE-2024-43625 - 8.1 - Microsoft Windows VMSwitch Elevation of Privilege Vulnerability
+  [-] CVE-2024-43627 - 8.8 - Windows Telephony Service Remote Code Execution Vulnerability
+  [-] CVE-2024-43628 - 8.8 - Windows Telephony Service Remote Code Execution Vulnerability
+  [-] CVE-2024-43447 - 8.1 - Windows SMBv3 Server Remote Code Execution Vulnerability
+  [-] CVE-2024-38255 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-43459 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-43462 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-48994 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-48995 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-48996 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-5535 - 9.1 - OpenSSL: CVE-2024-5535 SSL_select_next_proto buffer overread
+  [-] CVE-2024-43498 - 9.8 - .NET and Visual Studio Remote Code Execution Vulnerability
+  [-] CVE-2024-43620 - 8.8 - Windows Telephony Service Remote Code Execution Vulnerability
+  [-] CVE-2024-43621 - 8.8 - Windows Telephony Service Remote Code Execution Vulnerability
+  [-] CVE-2024-43622 - 8.8 - Windows Telephony Service Remote Code Execution Vulnerability
+  [-] CVE-2024-43624 - 8.8 - Windows Hyper-V Shared Virtual Disk Elevation of Privilege Vulnerability
+  [-] CVE-2024-43635 - 8.8 - Windows Telephony Service Remote Code Execution Vulnerability
+  [-] CVE-2024-43639 - 9.8 - Windows Kerberos Remote Code Execution Vulnerability
+  [-] CVE-2024-48993 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-48997 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-48998 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-48999 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49000 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49001 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49002 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49003 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49004 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49005 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49007 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49006 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49008 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49009 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49010 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49011 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49012 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49013 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49014 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49015 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49016 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49017 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49018 - 8.8 - SQL Server Native Client Remote Code Execution Vulnerability
+  [-] CVE-2024-49039 - 8.8 - Windows Task Scheduler Elevation of Privilege Vulnerability
+  [-] CVE-2024-49048 - 8.1 - TorchGeo Remote Code Execution Vulnerability
+  [-] CVE-2024-49050 - 8.8 - Visual Studio Code Python Extension Remote Code Execution Vulnerability
   [-] CVE-2024-47685 - 9.1 - None
   [-] CVE-2024-2398 - 8.6 - None
   [-] CVE-2024-8926 - 8.8 - None
-  [-] CVE-2017-17522 - 8.8 - None
-[+] Found 0 vulnerabilities more likely to be exploited
+[+] Found 8 vulnerabilities more likely to be exploited
+  [-] CVE-2024-43623 -- Windows NT OS Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-43623
+  [-] CVE-2024-43630 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-43630
+  [-] CVE-2024-49040 -- Microsoft Exchange Server Spoofing Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-49040
+  [-] CVE-2024-43629 -- Windows DWM Core Library Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-43629
+  [-] CVE-2024-43636 -- Win32k Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-43636
+  [-] CVE-2024-43642 -- Windows SMB Denial of Service Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-43642
+  [-] CVE-2024-49019 -- Active Directory Certificate Services Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-49019
+  [-] CVE-2024-49033 -- Microsoft Word Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2024-49033
