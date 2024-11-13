@@ -1,7 +1,7 @@
 [+] Microsoft Patch Tuesday Stats
 [+] November 2024 Security Updates
-[+] Found a total of 423 vulnerabilities
-  [-] 26 Elevation of Privilege Vulnerabilities
+[+] Found a total of 425 vulnerabilities
+  [-] 28 Elevation of Privilege Vulnerabilities
   [-] 2 Security Feature Bypass Vulnerabilities
   [-] 52 Remote Code Execution Vulnerabilities
   [-] 1 Information Disclosure Vulnerabilities
