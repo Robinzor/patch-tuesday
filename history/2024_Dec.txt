@@ -1,0 +1,23 @@
+[+] Microsoft Patch Tuesday Stats
+[+] December 2024 Early Security Updates
+[+] Found a total of 187 vulnerabilities
+  [-] 0 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 0 Remote Code Execution Vulnerabilities
+  [-] 0 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 0 Spoofing Vulnerabilities
+  [-] 2 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2024-38473 - 8.1 - None
+  [-] CVE-2024-2398 - 8.6 - None
+  [-] CVE-2024-8932 - 9.8 - None
+  [-] CVE-2024-11236 - 9.8 - None
+  [-] CVE-2024-3727 - 8.3 - None
+  [-] CVE-2023-26484 - 8.2 - None
+  [-] CVE-2024-48949 - 9.1 - None
+  [-] CVE-2024-1545 - 8.8 - None
+  [-] CVE-2024-2881 - 8.8 - None
+  [-] CVE-2024-11233 - 8.2 - None
+[+] Found 0 vulnerabilities more likely to be exploited
