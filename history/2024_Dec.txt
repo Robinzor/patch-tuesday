@@ -1,6 +1,6 @@
 [+] Microsoft Patch Tuesday Stats
 [+] December 2024 Early Security Updates
-[+] Found a total of 187 vulnerabilities
+[+] Found a total of 188 vulnerabilities
   [-] 0 Elevation of Privilege Vulnerabilities
   [-] 0 Security Feature Bypass Vulnerabilities
   [-] 0 Remote Code Execution Vulnerabilities
