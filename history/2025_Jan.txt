@@ -1,0 +1,19 @@
+[+] Microsoft Patch Tuesday Stats
+[+] January 2025 Early Security Updates
+[+] Found a total of 50 vulnerabilities
+  [-] 0 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 0 Remote Code Execution Vulnerabilities
+  [-] 2 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 0 Spoofing Vulnerabilities
+  [-] 0 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2017-17522 - 8.8 - None
+  [-] CVE-2024-3727 - 8.3 - None
+  [-] CVE-2024-52338 - 9.8 - None
+  [-] CVE-2024-45337 - 9.1 - None
+  [-] CVE-2025-21385 - 8.8 - Microsoft Purview Information Disclosure Vulnerability
+  [-] CVE-2025-21380 - 8.8 - Azure Marketplace SaaS Resources Information Disclosure Vulnerability
+[+] Found 0 vulnerabilities more likely to be exploited
