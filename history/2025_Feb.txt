@@ -1,0 +1,23 @@
+[+] Microsoft Patch Tuesday Stats
+[+] February 2025 Early Security Updates
+[+] Found a total of 67 vulnerabilities
+  [-] 1 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 0 Remote Code Execution Vulnerabilities
+  [-] 0 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 1 Spoofing Vulnerabilities
+  [-] 9 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2017-17522 - 8.8 - None
+  [-] CVE-2024-4323 - 9.8 - None
+  [-] CVE-2024-3727 - 8.3 - None
+  [-] CVE-2022-49043 - 8.1 - None
+  [-] CVE-2007-4559 - 9.8 - None
+  [-] CVE-2024-52338 - 9.8 - None
+  [-] CVE-2013-2094 - 8.4 - None
+  [-] CVE-2025-21177 - 8.7 - Microsoft Dynamics 365 Sales Elevation of Privilege Vulnerability
+  [-] CVE-2025-21408 - 8.8 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2025-21342 - 8.8 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+[+] Found 0 vulnerabilities more likely to be exploited
