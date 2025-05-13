@@ -1,0 +1,26 @@
+[+] Microsoft Patch Tuesday Stats
+[+] May Early 2025 Security Updates
+[+] Found a total of 197 vulnerabilities
+  [-] 2 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 1 Remote Code Execution Vulnerabilities
+  [-] 2 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 1 Spoofing Vulnerabilities
+  [-] 6 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2024-3727 - 8.3 - None
+  [-] CVE-2017-17522 - 8.8 - None
+  [-] CVE-2024-52338 - 9.8 - None
+  [-] CVE-2025-2291 - 8.1 - None
+  [-] CVE-2007-4559 - 9.8 - None
+  [-] CVE-2016-1585 - 9.8 - None
+  [-] CVE-2025-23016 - 9.3 - None
+  [-] CVE-2025-33072 - 8.1 - Microsoft msagsfeedback.azurewebsites.net Information Disclosure Vulnerability
+  [-] CVE-2025-29972 - 9.9 - Azure Storage Resource Provider Spoofing Vulnerability
+  [-] CVE-2025-29827 - 9.9 - Azure Automation Elevation of Privilege Vulnerability
+  [-] CVE-2025-29813 - 10.0 - Azure DevOps Elevation of Privilege Vulnerability
+  [-] CVE-2025-47733 - 9.1 - Microsoft Power Apps Information Disclosure Vulnerability
+  [-] CVE-2025-47732 - 8.7 - Microsoft Dataverse Remote Code Execution Vulnerability
+[+] Found 0 vulnerabilities more likely to be exploited
