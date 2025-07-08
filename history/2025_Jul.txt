@@ -1,0 +1,16 @@
+[+] Microsoft Patch Tuesday Stats
+[+] July Early 2025 Security Updates
+[+] Found a total of 7 vulnerabilities
+  [-] 0 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 0 Remote Code Execution Vulnerabilities
+  [-] 0 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 0 Spoofing Vulnerabilities
+  [-] 3 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2025-1744 - 9.8 - None
+  [-] CVE-2025-1861 - 9.8 - None
+  [-] CVE-2025-49713 - 8.8 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+[+] Found 0 vulnerabilities more likely to be exploited
