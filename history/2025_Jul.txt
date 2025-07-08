@@ -1,16 +1,67 @@
 [+] Microsoft Patch Tuesday Stats
-[+] July Early 2025 Security Updates
-[+] Found a total of 7 vulnerabilities
-  [-] 0 Elevation of Privilege Vulnerabilities
-  [-] 0 Security Feature Bypass Vulnerabilities
-  [-] 0 Remote Code Execution Vulnerabilities
-  [-] 0 Information Disclosure Vulnerabilities
-  [-] 0 Denial of Service Vulnerabilities
-  [-] 0 Spoofing Vulnerabilities
+[+] July 2025 Security Updates
+[+] Found a total of 144 vulnerabilities
+  [-] 53 Elevation of Privilege Vulnerabilities
+  [-] 8 Security Feature Bypass Vulnerabilities
+  [-] 41 Remote Code Execution Vulnerabilities
+  [-] 18 Information Disclosure Vulnerabilities
+  [-] 6 Denial of Service Vulnerabilities
+  [-] 4 Spoofing Vulnerabilities
   [-] 3 Edge - Chromium Vulnerabilities
 [+] Found 0 exploited in the wild
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2025-33054 - 8.1 - Remote Desktop Spoofing Vulnerability
+  [-] CVE-2025-47972 - 8.0 - Windows Input Method Editor (IME) Elevation of Privilege Vulnerability
+  [-] CVE-2025-47986 - 8.8 - Universal Print Management Service Elevation of Privilege Vulnerability
+  [-] CVE-2025-48824 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49657 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49670 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49672 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49674 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49676 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49687 - 8.8 - Windows Input Method Editor (IME) Elevation of Privilege Vulnerability
+  [-] CVE-2025-49688 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49717 - 8.5 - Microsoft SQL Server Remote Code Execution Vulnerability
+  [-] CVE-2025-49723 - 8.8 - Windows StateRepository API Server file Tampering Vulnerability
+  [-] CVE-2025-49735 - 8.1 - Windows KDC Proxy Service (KPSSVC) Remote Code Execution Vulnerability
+  [-] CVE-2025-47178 - 8.0 - Microsoft Configuration Manager Remote Code Execution Vulnerability
+  [-] CVE-2025-49713 - 8.8 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2025-49753 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-47981 - 9.8 - SPNEGO Extended Negotiation (NEGOEX) Security Mechanism Remote Code Execution Vulnerability
+  [-] CVE-2025-47998 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-48817 - 8.8 - Remote Desktop Client Remote Code Execution Vulnerability
+  [-] CVE-2025-48822 - 8.6 - Windows Hyper-V Discrete Device Assignment (DDA) Remote Code Execution Vulnerability
+  [-] CVE-2025-49663 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49668 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49669 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49673 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49695 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2025-49696 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2025-49697 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2025-49701 - 8.8 - Microsoft SharePoint Remote Code Execution Vulnerability
+  [-] CVE-2025-49704 - 8.8 - Microsoft SharePoint Remote Code Execution Vulnerability
+  [-] CVE-2025-49724 - 8.8 - Windows Connected Devices Platform Service Remote Code Execution Vulnerability
+  [-] CVE-2025-49729 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-49739 - 8.8 - Visual Studio Elevation of Privilege Vulnerability
+  [-] CVE-2025-49740 - 8.8 - Windows SmartScreen Security Feature Bypass Vulnerability
   [-] CVE-2025-1744 - 9.8 - None
   [-] CVE-2025-1861 - 9.8 - None
-  [-] CVE-2025-49713 - 8.8 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
-[+] Found 0 vulnerabilities more likely to be exploited
+  [-] CVE-2025-49691 - 8.0 - Windows Miracast Wireless Display Remote Code Execution Vulnerability
+[+] Found 17 vulnerabilities more likely to be exploited
+  [-] CVE-2025-47987 -- Credential Security Support Provider Protocol (CredSSP) Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-47987
+  [-] CVE-2025-49735 -- Windows KDC Proxy Service (KPSSVC) Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-49735
+  [-] CVE-2025-47978 -- Windows Kerberos Denial of Service Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-47978
+  [-] CVE-2025-47981 -- SPNEGO Extended Negotiation (NEGOEX) Security Mechanism Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-47981
+  [-] CVE-2025-48001 -- BitLocker Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-48001
+  [-] CVE-2025-48799 -- Windows Update Service Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-48799
+  [-] CVE-2025-48800 -- BitLocker Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-48800
+  [-] CVE-2025-48818 -- BitLocker Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-48818
+  [-] CVE-2025-49695 -- Microsoft Office Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-49695
+  [-] CVE-2025-49696 -- Microsoft Office Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-49696
+  [-] CVE-2025-49701 -- Microsoft SharePoint Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-49701
+  [-] CVE-2025-49704 -- Microsoft SharePoint Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-49704
+  [-] CVE-2025-49718 -- Microsoft SQL Server Information Disclosure Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-49718
+  [-] CVE-2025-49724 -- Windows Connected Devices Platform Service Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-49724
+  [-] CVE-2025-49727 -- Win32k Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-49727
+  [-] CVE-2025-49744 -- Windows Graphics Component Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-49744
+  [-] CVE-2025-48804 -- BitLocker Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-48804
