@@ -1,0 +1,20 @@
+[+] Microsoft Patch Tuesday Stats
+[+] August Early 2025 Security Updates
+[+] Found a total of 277 vulnerabilities
+  [-] 3 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 0 Remote Code Execution Vulnerabilities
+  [-] 2 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 0 Spoofing Vulnerabilities
+  [-] 8 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2024-48916 - 8.1 - None
+  [-] CVE-2025-1550 - 9.8 - None
+  [-] CVE-2025-53786 - 8.0 - Microsoft Exchange Server Hybrid Deployment Elevation of Privilege Vulnerability
+  [-] CVE-2025-53792 - 9.1 - Azure Portal Elevation of Privilege Vulnerability
+  [-] CVE-2025-53767 - 10.0 - Azure OpenAI Elevation of Privilege Vulnerability
+  [-] CVE-2025-53787 - 8.2 - Microsoft 365 Copilot BizChat Information Disclosure Vulnerability
+[+] Found 1 vulnerabilities more likely to be exploited
+  [-] CVE-2025-53786 -- Microsoft Exchange Server Hybrid Deployment Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-53786
