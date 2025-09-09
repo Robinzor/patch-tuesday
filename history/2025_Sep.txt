@@ -1,0 +1,16 @@
+[+] Microsoft Patch Tuesday Stats
+[+] September Early 2025 Security Updates
+[+] Found a total of 12 vulnerabilities
+  [-] 3 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 0 Remote Code Execution Vulnerabilities
+  [-] 2 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 0 Spoofing Vulnerabilities
+  [-] 5 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2025-55244 - 9.0 - Azure Bot Service Elevation of Privilege Vulnerability
+  [-] CVE-2025-54914 - 10.0 - Azure Networking Elevation of Privilege Vulnerability
+  [-] CVE-2025-55241 - 9.0 - Azure Entra Elevation of Privilege Vulnerability
+[+] Found 0 vulnerabilities more likely to be exploited
