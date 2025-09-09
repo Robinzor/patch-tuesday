@@ -1,16 +1,36 @@
 [+] Microsoft Patch Tuesday Stats
-[+] September Early 2025 Security Updates
-[+] Found a total of 12 vulnerabilities
-  [-] 3 Elevation of Privilege Vulnerabilities
-  [-] 0 Security Feature Bypass Vulnerabilities
-  [-] 0 Remote Code Execution Vulnerabilities
-  [-] 2 Information Disclosure Vulnerabilities
-  [-] 0 Denial of Service Vulnerabilities
-  [-] 0 Spoofing Vulnerabilities
+[+] September 2025 Security Updates
+[+] Found a total of 181 vulnerabilities
+  [-] 41 Elevation of Privilege Vulnerabilities
+  [-] 2 Security Feature Bypass Vulnerabilities
+  [-] 22 Remote Code Execution Vulnerabilities
+  [-] 16 Information Disclosure Vulnerabilities
+  [-] 3 Denial of Service Vulnerabilities
+  [-] 1 Spoofing Vulnerabilities
   [-] 5 Edge - Chromium Vulnerabilities
 [+] Found 0 exploited in the wild
 [+] Highest Rated Vulnerabilities
-  [-] CVE-2025-55244 - 9.0 - Azure Bot Service Elevation of Privilege Vulnerability
-  [-] CVE-2025-54914 - 10.0 - Azure Networking Elevation of Privilege Vulnerability
+  [-] CVE-2025-54106 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-54110 - 8.8 - Windows Kernel Elevation of Privilege Vulnerability
+  [-] CVE-2025-54897 - 8.8 - Microsoft SharePoint Remote Code Execution Vulnerability
+  [-] CVE-2025-54918 - 8.8 - Windows NTLM Elevation of Privilege Vulnerability
+  [-] CVE-2025-55232 - 9.8 - Microsoft High Performance Compute (HPC) Pack Remote Code Execution Vulnerability
+  [-] CVE-2025-54113 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-54910 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2025-55227 - 8.8 - Microsoft SQL Server Elevation of Privilege Vulnerability
+  [-] CVE-2025-55234 - 8.8 - Windows SMB Elevation of Privilege Vulnerability
   [-] CVE-2025-55241 - 9.0 - Azure Entra Elevation of Privilege Vulnerability
-[+] Found 0 vulnerabilities more likely to be exploited
+  [-] CVE-2025-54914 - 10.0 - Azure Networking Elevation of Privilege Vulnerability
+  [-] CVE-2025-55244 - 9.0 - Azure Bot Service Elevation of Privilege Vulnerability
+  [-] CVE-2025-38714 - 9.0 - hfsplus: fix slab-out-of-bounds in hfsplus_bnode_read()
+  [-] CVE-2025-57052 - 9.8 - cJSON 1.5.0 through 1.7.18 allows out-of-bounds access via the decode_array_index_from_pointer function in cJSON_Utils.c, allowing remote attackers to bypass array bounds checking and access restricted data via malformed JSON pointer strings containing alphanumeric characters.
+  [-] CVE-2025-9566 - 8.1 - Podman: podman kube play command may overwrite host files
+[+] Found 8 vulnerabilities more likely to be exploited
+  [-] CVE-2025-54110 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-54110
+  [-] CVE-2025-54916 -- Windows NTFS Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-54916
+  [-] CVE-2025-54918 -- Windows NTLM Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-54918
+  [-] CVE-2025-53803 -- Windows Kernel Memory Information Disclosure Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-53803
+  [-] CVE-2025-53804 -- Windows Kernel-Mode Driver Information Disclosure Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-53804
+  [-] CVE-2025-54093 -- Windows TCP/IP Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-54093
+  [-] CVE-2025-54098 -- Windows Hyper-V Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-54098
+  [-] CVE-2025-55234 -- Windows SMB Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-55234
