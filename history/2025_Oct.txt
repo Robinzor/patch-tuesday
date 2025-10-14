@@ -1,22 +1,41 @@
 [+] Microsoft Patch Tuesday Stats
 [+] October 2025 Security Updates
-[+] Found a total of 80 vulnerabilities
-  [-] 5 Elevation of Privilege Vulnerabilities
-  [-] 0 Security Feature Bypass Vulnerabilities
-  [-] 1 Remote Code Execution Vulnerabilities
-  [-] 0 Information Disclosure Vulnerabilities
-  [-] 0 Denial of Service Vulnerabilities
-  [-] 4 Spoofing Vulnerabilities
+[+] Found a total of 252 vulnerabilities
+  [-] 85 Elevation of Privilege Vulnerabilities
+  [-] 11 Security Feature Bypass Vulnerabilities
+  [-] 32 Remote Code Execution Vulnerabilities
+  [-] 28 Information Disclosure Vulnerabilities
+  [-] 11 Denial of Service Vulnerabilities
+  [-] 14 Spoofing Vulnerabilities
   [-] 14 Edge - Chromium Vulnerabilities
-[+] Found 0 exploited in the wild
+[+] Found 3 exploited in the wild
+  [-] CVE-2025-24990 - 7.8 - Windows Agere Modem Driver Elevation of Privilege Vulnerability
+  [-] CVE-2025-59230 - 7.8 - Windows Remote Access Connection Manager Elevation of Privilege Vulnerability
+  [-] CVE-2025-47827 - 4.6 - MITRE CVE-2025-47827: Secure Boot bypass in IGEL OS before 11
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2025-0033 - 8.2 - AMD CVE-2025-0033: RMP Corruption During SNP Initialization
+  [-] CVE-2025-53782 - 8.4 - Microsoft Exchange Server Elevation of Privilege Vulnerability
+  [-] CVE-2025-55315 - 9.9 - ASP.NET Security Feature Bypass Vulnerability
+  [-] CVE-2025-58715 - 8.8 - Windows Speech Runtime Elevation of Privilege Vulnerability
+  [-] CVE-2025-58716 - 8.8 - Windows Speech Runtime Elevation of Privilege Vulnerability
+  [-] CVE-2025-59228 - 8.8 - Microsoft SharePoint Remote Code Execution Vulnerability
+  [-] CVE-2025-59236 - 8.4 - Microsoft Excel Remote Code Execution Vulnerability
+  [-] CVE-2025-59237 - 8.8 - Microsoft SharePoint Remote Code Execution Vulnerability
+  [-] CVE-2025-49708 - 9.9 - Microsoft Graphics Component Elevation of Privilege Vulnerability
+  [-] CVE-2025-59249 - 8.8 - Microsoft Exchange Server Elevation of Privilege Vulnerability
+  [-] CVE-2025-59250 - 8.1 - JDBC Driver for SQL Server Spoofing Vulnerability
+  [-] CVE-2025-59291 - 8.2 - Confidential Azure Container Instances Elevation of Privilege Vulnerability
+  [-] CVE-2025-59292 - 8.2 - Azure Compute Gallery Elevation of Privilege Vulnerability
+  [-] CVE-2025-59295 - 8.8 - Windows URL Parsing Remote Code Execution Vulnerability
+  [-] CVE-2025-58718 - 8.8 - Remote Desktop Client Remote Code Execution Vulnerability
+  [-] CVE-2025-59213 - 8.4 - Configuration Manager Elevation of Privilege Vulnerability
+  [-] CVE-2025-59489 - 8.4 - MITRE: CVE-2025-59489 Unity Gaming Engine Editor vulnerability
+  [-] CVE-2025-59287 - 9.8 - Windows Server Update Service (WSUS) Remote Code Execution Vulnerability
   [-] CVE-2025-59218 - 9.6 - Azure Entra ID Elevation of Privilege Vulnerability
   [-] CVE-2025-59246 - 9.8 - Azure Entra ID Elevation of Privilege Vulnerability
   [-] CVE-2025-59247 - 8.8 - Azure PlayFab Elevation of Privilege Vulnerability
-  [-] CVE-2025-55321 - 8.7 - Azure Monitor Log Analytics Spoofing Vulnerability
   [-] CVE-2025-59271 - 8.7 - Redis Enterprise Elevation of Privilege Vulnerability
-  [-] CVE-2025-59489 - 8.4 - MITRE: CVE-2025-59489 Unity Gaming Engine Editor vulnerability
-  [-] CVE-2025-0033 - 8.2 - AMD CVE-2025-0033: RMP Corruption During SNP Initialization
+  [-] CVE-2025-55321 - 8.7 - Azure Monitor Log Analytics Spoofing Vulnerability
   [-] CVE-2025-39943 - 9.8 - ksmbd: smbdirect: validate data_offset and data_length field of smb_direct_data_transfer
   [-] CVE-2025-39910 - 9.8 - mm/vmalloc, mm/kasan: respect gfp mask in kasan_populate_vmalloc()
   [-] CVE-2025-39925 - 9.8 - can: j1939: implement NETDEV_UNREGISTER notification handler
@@ -24,5 +43,18 @@
   [-] CVE-2025-39907 - 9.8 - mtd: rawnand: stm32_fmc2: avoid overlapping mappings on ECC buffer
   [-] CVE-2025-10729 - 9.3 - Use-after-free vulnerability in Qt SVG qsvghandler.cpp allows denial of service via crafted SVG
   [-] CVE-2025-49844 - 9.9 - Redis Lua Use-After-Free may lead to remote code execution
-[+] Found 1 vulnerabilities more likely to be exploited
+[+] Found 14 vulnerabilities more likely to be exploited
+  [-] CVE-2025-48004 -- Microsoft Brokering File System Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-48004
+  [-] CVE-2025-24052 -- Windows Agere Modem Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-24052
+  [-] CVE-2025-55676 -- Windows USB Video Class System Driver Information Disclosure Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-55676
+  [-] CVE-2025-55681 -- Desktop Windows Manager Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-55681
+  [-] CVE-2025-58722 -- Microsoft DWM Core Library Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-58722
+  [-] CVE-2025-59199 -- Software Protection Platform (SPP) Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-59199
+  [-] CVE-2025-59502 -- Remote Procedure Call Denial of Service Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-59502
+  [-] CVE-2025-55680 -- Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-55680
+  [-] CVE-2025-55692 -- Windows Error Reporting Service Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-55692
+  [-] CVE-2025-55693 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-55693
+  [-] CVE-2025-55694 -- Windows Error Reporting Service Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-55694
+  [-] CVE-2025-59194 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-59194
+  [-] CVE-2025-59287 -- Windows Server Update Service (WSUS) Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-59287
   [-] CVE-2025-59246 -- Azure Entra ID Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-59246
