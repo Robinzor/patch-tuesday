@@ -1,13 +1,29 @@
 [+] Microsoft Patch Tuesday Stats
-[+] November 2025 Early Security Updates
-[+] Found a total of 19 vulnerabilities
-  [-] 0 Elevation of Privilege Vulnerabilities
-  [-] 0 Security Feature Bypass Vulnerabilities
-  [-] 0 Remote Code Execution Vulnerabilities
-  [-] 0 Information Disclosure Vulnerabilities
-  [-] 0 Denial of Service Vulnerabilities
-  [-] 0 Spoofing Vulnerabilities
+[+] November 2025 Security Updates
+[+] Found a total of 85 vulnerabilities
+  [-] 29 Elevation of Privilege Vulnerabilities
+  [-] 2 Security Feature Bypass Vulnerabilities
+  [-] 16 Remote Code Execution Vulnerabilities
+  [-] 11 Information Disclosure Vulnerabilities
+  [-] 3 Denial of Service Vulnerabilities
+  [-] 2 Spoofing Vulnerabilities
   [-] 5 Edge - Chromium Vulnerabilities
-[+] Found 0 exploited in the wild
+[+] Found 1 exploited in the wild
+  [-] CVE-2025-62215 - 7.0 - Windows Kernel Elevation of Privilege Vulnerability
 [+] Highest Rated Vulnerabilities
-[+] Found 0 vulnerabilities more likely to be exploited
+  [-] CVE-2025-62210 - 8.7 - Dynamics 365 Field Service (online) Spoofing Vulnerability
+  [-] CVE-2025-62220 - 8.8 - Windows Subsystem for Linux GUI Remote Code Execution Vulnerability
+  [-] CVE-2025-62452 - 8.0 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-60715 - 8.0 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-60724 - 9.8 - GDI+ Remote Code Execution Vulnerability
+  [-] CVE-2025-62204 - 8.0 - Microsoft SharePoint Remote Code Execution Vulnerability
+  [-] CVE-2025-59499 - 8.8 - Microsoft SQL Server Elevation of Privilege Vulnerability
+  [-] CVE-2025-62211 - 8.7 - Dynamics 365 Field Service (online) Spoofing Vulnerability
+  [-] CVE-2025-62222 - 8.8 - Agentic AI and Visual Studio Code Remote Code Execution Vulnerability
+  [-] CVE-2025-30398 - 8.1 - Nuance PowerScribe 360 Information Disclosure Vulnerability
+[+] Found 5 vulnerabilities more likely to be exploited
+  [-] CVE-2025-59512 -- Customer Experience Improvement Program (CEIP) Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-59512
+  [-] CVE-2025-60705 -- Windows Client-Side Caching Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-60705
+  [-] CVE-2025-60719 -- Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-60719
+  [-] CVE-2025-62217 -- Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-62217
+  [-] CVE-2025-62213 -- Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-62213
