@@ -1,18 +1,33 @@
 [+] Microsoft Patch Tuesday Stats
-[+] December 2025 Early Security Updates
-[+] Found a total of 98 vulnerabilities
-  [-] 0 Elevation of Privilege Vulnerabilities
+[+] December 2025 Security Updates
+[+] Found a total of 154 vulnerabilities
+  [-] 28 Elevation of Privilege Vulnerabilities
   [-] 0 Security Feature Bypass Vulnerabilities
-  [-] 0 Remote Code Execution Vulnerabilities
-  [-] 0 Information Disclosure Vulnerabilities
-  [-] 0 Denial of Service Vulnerabilities
-  [-] 0 Spoofing Vulnerabilities
+  [-] 19 Remote Code Execution Vulnerabilities
+  [-] 4 Information Disclosure Vulnerabilities
+  [-] 3 Denial of Service Vulnerabilities
+  [-] 2 Spoofing Vulnerabilities
   [-] 14 Edge - Chromium Vulnerabilities
-[+] Found 0 exploited in the wild
+[+] Found 1 exploited in the wild
+  [-] CVE-2025-62221 - 7.8 - Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2025-62456 - 8.8 - Windows Resilient File System (ReFS) Remote Code Execution Vulnerability
+  [-] CVE-2025-62549 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2025-62550 - 8.8 - Azure Monitor Agent Remote Code Execution Vulnerability
+  [-] CVE-2025-62554 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2025-62557 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2025-64671 - 8.4 - GitHub Copilot for Jetbrains Remote Code Execution Vulnerability
+  [-] CVE-2025-64672 - 8.8 - Microsoft SharePoint Server Spoofing Vulnerability
+  [-] CVE-2025-64678 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
   [-] CVE-2025-40262 - 9.8 - Input: imx_sc_key - fix memory corruption on unload
   [-] CVE-2025-40242 - 9.8 - gfs2: Fix unlikely race in gdlm_put_lock
   [-] CVE-2025-40240 - 8.6 - sctp: avoid NULL dereference when chunk data buffer is missing
   [-] CVE-2025-40251 - 9.8 - devlink: rate: Unset parent pointer in devl_rate_nodes_destroy
   [-] CVE-2025-40244 - 9.8 - hfsplus: fix KMSAN uninit-value issue in __hfsplus_ext_cache_extent()
-[+] Found 0 vulnerabilities more likely to be exploited
+[+] Found 6 vulnerabilities more likely to be exploited
+  [-] CVE-2025-62454 -- Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-62454
+  [-] CVE-2025-62458 -- Win32k Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-62458
+  [-] CVE-2025-62470 -- Windows Common Log File System Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-62470
+  [-] CVE-2025-62472 -- Windows Remote Access Connection Manager Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-62472
+  [-] CVE-2025-59516 -- Windows Storage VSP Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-59516
+  [-] CVE-2025-59517 -- Windows Storage VSP Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2025-59517
