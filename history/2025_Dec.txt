@@ -1,6 +1,6 @@
 [+] Microsoft Patch Tuesday Stats
 [+] December 2025 Early Security Updates
-[+] Found a total of 73 vulnerabilities
+[+] Found a total of 98 vulnerabilities
   [-] 0 Elevation of Privilege Vulnerabilities
   [-] 0 Security Feature Bypass Vulnerabilities
   [-] 0 Remote Code Execution Vulnerabilities
