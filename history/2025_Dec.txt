@@ -1,0 +1,18 @@
+[+] Microsoft Patch Tuesday Stats
+[+] December 2025 Early Security Updates
+[+] Found a total of 73 vulnerabilities
+  [-] 0 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 0 Remote Code Execution Vulnerabilities
+  [-] 0 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 0 Spoofing Vulnerabilities
+  [-] 14 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2025-40262 - 9.8 - Input: imx_sc_key - fix memory corruption on unload
+  [-] CVE-2025-40242 - 9.8 - gfs2: Fix unlikely race in gdlm_put_lock
+  [-] CVE-2025-40240 - 8.6 - sctp: avoid NULL dereference when chunk data buffer is missing
+  [-] CVE-2025-40251 - 9.8 - devlink: rate: Unset parent pointer in devl_rate_nodes_destroy
+  [-] CVE-2025-40244 - 9.8 - hfsplus: fix KMSAN uninit-value issue in __hfsplus_ext_cache_extent()
+[+] Found 0 vulnerabilities more likely to be exploited
