@@ -1,0 +1,39 @@
+[+] Microsoft Patch Tuesday Stats
+[+] February 2026 Security Updates
+[+] Found a total of 61 vulnerabilities
+  [-] 25 Elevation of Privilege Vulnerabilities
+  [-] 5 Security Feature Bypass Vulnerabilities
+  [-] 12 Remote Code Execution Vulnerabilities
+  [-] 6 Information Disclosure Vulnerabilities
+  [-] 3 Denial of Service Vulnerabilities
+  [-] 7 Spoofing Vulnerabilities
+  [-] 3 Edge - Chromium Vulnerabilities
+[+] Found 6 exploited in the wild
+  [-] CVE-2026-21519 - 7.8 - Desktop Window Manager Elevation of Privilege Vulnerability
+  [-] CVE-2026-21533 - 7.8 - Windows Remote Desktop Services Elevation of Privilege Vulnerability
+  [-] CVE-2026-21513 - 8.8 - MSHTML Framework Security Feature Bypass Vulnerability
+  [-] CVE-2026-21510 - 8.8 - Windows Shell Security Feature Bypass Vulnerability
+  [-] CVE-2026-21514 - 7.8 - Microsoft Word Security Feature Bypass Vulnerability
+  [-] CVE-2026-21525 - 6.2 - Windows Remote Access Connection Manager Denial of Service Vulnerability
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2026-21523 - 8.0 - GitHub Copilot and Visual Studio Code Remote Code Execution Vulnerability
+  [-] CVE-2026-21229 - 8.0 - Power BI Remote Code Execution Vulnerability
+  [-] CVE-2026-21513 - 8.8 - MSHTML Framework Security Feature Bypass Vulnerability
+  [-] CVE-2026-24300 - 9.8 - Azure Front Door Elevation of Privilege Vulnerability
+  [-] CVE-2026-24302 - 8.6 - Azure Arc Elevation of Privilege Vulnerability
+  [-] CVE-2026-21532 - 8.2 - Azure Function Information Disclosure Vulnerability
+  [-] CVE-2026-21531 - 9.8 - Azure SDK for Python Remote Code Execution Vulnerability
+  [-] CVE-2026-21510 - 8.8 - Windows Shell Security Feature Bypass Vulnerability
+  [-] CVE-2026-21537 - 8.8 - Microsoft Defender for Endpoint Linux Extension Remote Code Execution Vulnerability
+  [-] CVE-2026-21516 - 8.8 - GitHub Copilot for Jetbrains Remote Code Execution Vulnerability
+  [-] CVE-2026-21257 - 8.0 - GitHub Copilot and Visual Studio Elevation of Privilege Vulnerability
+  [-] CVE-2026-21256 - 8.8 - GitHub Copilot and Visual Studio Remote Code Execution Vulnerability
+  [-] CVE-2026-21255 - 8.8 - Windows Hyper-V Security Feature Bypass Vulnerability
+  [-] CVE-2026-21228 - 8.1 - Azure Local Remote Code Execution Vulnerability
+  [-] CVE-2026-20841 - 8.8 - Windows Notepad App Remote Code Execution Vulnerability
+[+] Found 5 vulnerabilities more likely to be exploited
+  [-] CVE-2026-21511 -- Microsoft Outlook Spoofing Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-21511
+  [-] CVE-2026-21253 -- Mailslot File System Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-21253
+  [-] CVE-2026-21241 -- Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-21241
+  [-] CVE-2026-21238 -- Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-21238
+  [-] CVE-2026-21231 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-21231
