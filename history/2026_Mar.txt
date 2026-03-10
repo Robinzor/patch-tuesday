@@ -1,6 +1,6 @@
 [+] Microsoft Patch Tuesday Stats
 [+] March 2026 Early Security Updates
-[+] Found a total of 25 vulnerabilities
+[+] Found a total of 34 vulnerabilities
   [-] 3 Elevation of Privilege Vulnerabilities
   [-] 0 Security Feature Bypass Vulnerabilities
   [-] 1 Remote Code Execution Vulnerabilities
@@ -10,7 +10,9 @@
   [-] 9 Edge - Chromium Vulnerabilities
 [+] Found 0 exploited in the wild
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2026-0038 - 8.4 - In multiple functions of mem_protect.c, there is a possible way to execute arbitrary code due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+  [-] CVE-2026-3381 - 9.8 - Compress::Raw::Zlib versions through 2.219 for Perl use potentially insecure versions of zlib
+  [-] CVE-2026-0031 - 8.4 - In multiple functions of mem_protect.c, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
   [-] CVE-2026-21536 - 9.8 - Microsoft Devices Pricing Program Remote Code Execution Vulnerability
   [-] CVE-2026-26125 - 8.6 - Payment Orchestrator Service Elevation of Privilege Vulnerability
-  [-] CVE-2026-0038 - 8.4 - In multiple functions of mem_protect.c, there is a possible way to execute arbitrary code due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
 [+] Found 0 vulnerabilities more likely to be exploited
