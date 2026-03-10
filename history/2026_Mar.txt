@@ -1,18 +1,45 @@
 [+] Microsoft Patch Tuesday Stats
-[+] March 2026 Early Security Updates
-[+] Found a total of 34 vulnerabilities
-  [-] 3 Elevation of Privilege Vulnerabilities
-  [-] 0 Security Feature Bypass Vulnerabilities
-  [-] 1 Remote Code Execution Vulnerabilities
-  [-] 1 Information Disclosure Vulnerabilities
-  [-] 0 Denial of Service Vulnerabilities
-  [-] 0 Spoofing Vulnerabilities
+[+] March 2026 Security Updates
+[+] Found a total of 113 vulnerabilities
+  [-] 46 Elevation of Privilege Vulnerabilities
+  [-] 2 Security Feature Bypass Vulnerabilities
+  [-] 18 Remote Code Execution Vulnerabilities
+  [-] 10 Information Disclosure Vulnerabilities
+  [-] 4 Denial of Service Vulnerabilities
+  [-] 4 Spoofing Vulnerabilities
   [-] 9 Edge - Chromium Vulnerabilities
 [+] Found 0 exploited in the wild
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2026-21262 - 8.8 - SQL Server Elevation of Privilege Vulnerability
+  [-] CVE-2026-23669 - 8.8 - Windows Print Spooler Remote Code Execution Vulnerability
+  [-] CVE-2026-24283 - 8.8 - Multiple UNC Provider Kernel Driver Elevation of Privilege Vulnerability
+  [-] CVE-2026-25172 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2026-25173 - 8.0 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2026-25177 - 8.8 - Active Directory Domain Services Elevation of Privilege Vulnerability
+  [-] CVE-2026-25188 - 8.8 - Windows Telephony Service Elevation of Privilege Vulnerability
+  [-] CVE-2026-26105 - 8.1 - Microsoft SharePoint Server Spoofing Vulnerability
+  [-] CVE-2026-26111 - 8.8 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2026-26113 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2026-26114 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-20967 - 8.8 - System Center Operations Manager (SCOM) Elevation of Privilege Vulnerability
+  [-] CVE-2026-26115 - 8.8 - SQL Server Elevation of Privilege Vulnerability
+  [-] CVE-2026-26116 - 8.8 - SQL Server Elevation of Privilege Vulnerability
+  [-] CVE-2026-21536 - 9.8 - Microsoft Devices Pricing Program Remote Code Execution Vulnerability
+  [-] CVE-2026-26125 - 8.6 - Payment Orchestrator Service Elevation of Privilege Vulnerability
+  [-] CVE-2026-26148 - 8.1 - Microsoft Azure AD SSH Login extension for Linux Elevation of Privilege Vulnerability
+  [-] CVE-2026-23654 - 8.8 - GitHub: Zero Shot SCFoundation Remote Code Execution Vulnerability
+  [-] CVE-2026-26106 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-26109 - 8.4 - Microsoft Excel Remote Code Execution Vulnerability
+  [-] CVE-2026-26110 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2026-26118 - 8.8 - Azure MCP Server Tools Elevation of Privilege Vulnerability
+  [-] CVE-2026-26030 - 9.9 - GitHub: CVE-2026-26030 Microsoft Semantic Kernel InMemoryVectorStore filter functionality vulnerable
   [-] CVE-2026-0038 - 8.4 - In multiple functions of mem_protect.c, there is a possible way to execute arbitrary code due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
   [-] CVE-2026-3381 - 9.8 - Compress::Raw::Zlib versions through 2.219 for Perl use potentially insecure versions of zlib
   [-] CVE-2026-0031 - 8.4 - In multiple functions of mem_protect.c, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
-  [-] CVE-2026-21536 - 9.8 - Microsoft Devices Pricing Program Remote Code Execution Vulnerability
-  [-] CVE-2026-26125 - 8.6 - Payment Orchestrator Service Elevation of Privilege Vulnerability
-[+] Found 0 vulnerabilities more likely to be exploited
+[+] Found 6 vulnerabilities more likely to be exploited
+  [-] CVE-2026-23668 -- Windows Graphics Component Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-23668
+  [-] CVE-2026-24289 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-24289
+  [-] CVE-2026-24291 -- Windows Accessibility Infrastructure (ATBroker.exe) Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-24291
+  [-] CVE-2026-24294 -- Windows SMB Server Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-24294
+  [-] CVE-2026-25187 -- Winlogon Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-25187
+  [-] CVE-2026-26132 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-26132
