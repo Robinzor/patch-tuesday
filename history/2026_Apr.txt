@@ -1,15 +1,35 @@
 [+] Microsoft Patch Tuesday Stats
-[+] April 2026 Early Security Updates
-[+] Found a total of 179 vulnerabilities
-  [-] 5 Elevation of Privilege Vulnerabilities
-  [-] 0 Security Feature Bypass Vulnerabilities
-  [-] 0 Remote Code Execution Vulnerabilities
-  [-] 2 Information Disclosure Vulnerabilities
-  [-] 0 Denial of Service Vulnerabilities
-  [-] 1 Spoofing Vulnerabilities
+[+] April 2026 Security Updates
+[+] Found a total of 340 vulnerabilities
+  [-] 93 Elevation of Privilege Vulnerabilities
+  [-] 13 Security Feature Bypass Vulnerabilities
+  [-] 20 Remote Code Execution Vulnerabilities
+  [-] 21 Information Disclosure Vulnerabilities
+  [-] 10 Denial of Service Vulnerabilities
+  [-] 9 Spoofing Vulnerabilities
   [-] 79 Edge - Chromium Vulnerabilities
-[+] Found 0 exploited in the wild
+[+] Found 1 exploited in the wild
+  [-] CVE-2026-32201 - 6.5 - Microsoft SharePoint Server Spoofing Vulnerability
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2026-26149 - 9.0 - Microsoft Power Apps Security Feature Bypass
+  [-] CVE-2026-26167 - 8.8 - Windows Push Notifications Elevation of Privilege Vulnerability
+  [-] CVE-2026-32157 - 8.8 - Remote Desktop Client Remote Code Execution Vulnerability
+  [-] CVE-2026-32221 - 8.4 - Windows Graphics Component Remote Code Execution Vulnerability
+  [-] CVE-2026-33120 - 8.8 - Microsoft SQL Server Remote Code Execution Vulnerability
+  [-] CVE-2026-33826 - 8.0 - Windows Active Directory Remote Code Execution Vulnerability
+  [-] CVE-2025-6965 - 9.8 - Integer Truncation on SQLite
+  [-] CVE-2026-26178 - 8.8 - Windows Advanced Rasterization Platform Elevation of Privilege Vulnerability
+  [-] CVE-2026-27912 - 8.0 - Windows Kerberos Elevation of Privilege Vulnerability
+  [-] CVE-2026-27928 - 8.7 - Windows Hello Security Feature Bypass Vulnerability
+  [-] CVE-2026-32091 - 8.4 - Microsoft Brokering File System Elevation of Privilege Vulnerability
+  [-] CVE-2026-32162 - 8.4 - Windows COM Elevation of Privilege Vulnerability
+  [-] CVE-2026-32171 - 8.8 - Azure Logic Apps Elevation of Privilege Vulnerability
+  [-] CVE-2026-32190 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2026-32225 - 8.8 - Windows Shell Security Feature Bypass Vulnerability
+  [-] CVE-2026-33114 - 8.4 - Microsoft Word Remote Code Execution Vulnerability
+  [-] CVE-2026-33115 - 8.4 - Microsoft Word Remote Code Execution Vulnerability
+  [-] CVE-2026-33827 - 8.1 - Windows TCP/IP Remote Code Execution Vulnerability
+  [-] CVE-2026-33824 - 9.8 - Windows Internet Key Exchange (IKE) Service Extensions Remote Code Execution Vulnerability
   [-] CVE-2026-34982 - 8.2 - Vim modeline bypass via various options affects Vim < 9.2.0276
   [-] CVE-2026-40393 - 8.1 - None
   [-] CVE-2026-31416 - 8.1 - netfilter: nfnetlink_log: account for netlink header size
@@ -21,11 +41,23 @@
   [-] CVE-2026-27140 - 9.8 - Code execution vulnerability in SWIG code generation in cmd/go
   [-] CVE-2026-31417 - 8.1 - net/x25: Fix overflow when accumulating packets
   [-] CVE-2026-31414 - 8.1 - netfilter: nf_conntrack_expect: use expect->helper
-  [-] CVE-2026-32213 - 10.0 - Azure AI Foundry Elevation of Privilege Vulnerability
-  [-] CVE-2026-32186 - 10.0 - Microsoft Bing Elevation of Privilege Vulnerability
-  [-] CVE-2026-33107 - 10.0 - Azure Databricks Elevation of Privilege Vulnerability
-  [-] CVE-2026-26135 - 9.6 - Azure Custom Locations Resource Provider (RP) Elevation of Privilege Vulnerability
-  [-] CVE-2026-33105 - 10.0 - Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
-  [-] CVE-2026-32173 - 8.6 - Azure SRE Agent Information Disclosure Vulnerability
-  [-] CVE-2026-32211 - 9.1 - Azure MCP Server Information Disclosure Vulnerability
-[+] Found 0 vulnerabilities more likely to be exploited
+[+] Found 19 vulnerabilities more likely to be exploited
+  [-] CVE-2026-26151 -- Remote Desktop Spoofing Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-26151
+  [-] CVE-2026-27906 -- Windows Hello Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-27906
+  [-] CVE-2026-27908 -- Windows TDI Translation Driver (tdx.sys) Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-27908
+  [-] CVE-2026-27921 -- Windows TDI Translation Driver (tdx.sys) Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-27921
+  [-] CVE-2026-32075 -- Windows UPnP Device Host Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-32075
+  [-] CVE-2026-32093 -- Windows Function Discovery Service (fdwsd.dll) Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-32093
+  [-] CVE-2026-32152 -- Desktop Window Manager Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-32152
+  [-] CVE-2026-32154 -- Desktop Window Manager Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-32154
+  [-] CVE-2026-0390 -- UEFI Secure Boot Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-0390
+  [-] CVE-2026-32202 -- Windows Shell Spoofing Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-32202
+  [-] CVE-2026-33826 -- Windows Active Directory Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-33826
+  [-] CVE-2026-26169 -- Windows Kernel Memory Information Disclosure Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-26169
+  [-] CVE-2026-27909 -- Windows Search Service Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-27909
+  [-] CVE-2026-27913 -- Windows BitLocker Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-27913
+  [-] CVE-2026-27914 -- Microsoft Management Console Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-27914
+  [-] CVE-2026-32070 -- Windows Common Log File System Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-32070
+  [-] CVE-2026-32162 -- Windows COM Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-32162
+  [-] CVE-2026-32225 -- Windows Shell Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-32225
+  [-] CVE-2026-33825 -- Microsoft Defender Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-33825
