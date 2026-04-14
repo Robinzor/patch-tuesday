@@ -1,6 +1,6 @@
 [+] Microsoft Patch Tuesday Stats
 [+] April 2026 Early Security Updates
-[+] Found a total of 162 vulnerabilities
+[+] Found a total of 179 vulnerabilities
   [-] 5 Elevation of Privilege Vulnerabilities
   [-] 0 Security Feature Bypass Vulnerabilities
   [-] 0 Remote Code Execution Vulnerabilities
@@ -11,11 +11,16 @@
 [+] Found 0 exploited in the wild
 [+] Highest Rated Vulnerabilities
   [-] CVE-2026-34982 - 8.2 - Vim modeline bypass via various options affects Vim < 9.2.0276
+  [-] CVE-2026-40393 - 8.1 - None
+  [-] CVE-2026-31416 - 8.1 - netfilter: nfnetlink_log: account for netlink header size
+  [-] CVE-2026-31418 - 8.1 - netfilter: ipset: drop logically empty buckets in mtype_del
   [-] CVE-2026-23401 - 8.4 - KVM: x86/mmu: Drop/zap existing present SPTE even when creating an MMIO SPTE
   [-] CVE-2026-35093 - 8.8 - Libinput: libinput: unauthorized code execution and information disclosure through lua bytecode plugins
   [-] CVE-2026-34445 - 8.6 - ONNX: Malicious ONNX models can crash servers by exploiting unprotected object settings.
   [-] CVE-2026-27143 - 9.8 - Missing bound checks can lead to memory corruption in safe Go in cmd/compile
   [-] CVE-2026-27140 - 9.8 - Code execution vulnerability in SWIG code generation in cmd/go
+  [-] CVE-2026-31417 - 8.1 - net/x25: Fix overflow when accumulating packets
+  [-] CVE-2026-31414 - 8.1 - netfilter: nf_conntrack_expect: use expect->helper
   [-] CVE-2026-32213 - 10.0 - Azure AI Foundry Elevation of Privilege Vulnerability
   [-] CVE-2026-32186 - 10.0 - Microsoft Bing Elevation of Privilege Vulnerability
   [-] CVE-2026-33107 - 10.0 - Azure Databricks Elevation of Privilege Vulnerability
