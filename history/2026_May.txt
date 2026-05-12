@@ -1,6 +1,6 @@
 [+] Microsoft Patch Tuesday Stats
 [+] May 2026 Early Security Updates
-[+] Found a total of 337 vulnerabilities
+[+] Found a total of 338 vulnerabilities
   [-] 3 Elevation of Privilege Vulnerabilities
   [-] 0 Security Feature Bypass Vulnerabilities
   [-] 2 Remote Code Execution Vulnerabilities
@@ -10,16 +10,6 @@
   [-] 130 Edge - Chromium Vulnerabilities
 [+] Found 0 exploited in the wild
 [+] Highest Rated Vulnerabilities
-  [-] CVE-2026-41105 - 8.1 - Azure Monitor Action Group Notification System Elevation of Privilege Vulnerability
-  [-] CVE-2026-33109 - 9.9 - Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
-  [-] CVE-2026-40379 - 9.3 - Microsoft Enterprise Security Token Service (ESTS) Spoofing Vulnerability
-  [-] CVE-2026-32207 - 8.8 - Azure Machine Learning Notebook Spoofing Vulnerability
-  [-] CVE-2026-33823 - 9.6 - Microsoft Team Events Portal Information Disclosure Vulnerability
-  [-] CVE-2026-33844 - 9.0 - Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
-  [-] CVE-2026-34327 - 8.2 - Microsoft Partner Center Spoofing Vulnerability
-  [-] CVE-2026-35435 - 8.6 - Azure AI Foundry Elevation of Privilege Vulnerability
-  [-] CVE-2026-35428 - 9.6 - Azure Cloud Shell Spoofing Vulnerability
-  [-] CVE-2026-42826 - 10.0 - Azure DevOps Information Disclosure Vulnerability
   [-] CVE-2026-31706 - 8.8 - ksmbd: validate num_aces and harden ACE walk in smb_inherit_dacl()
   [-] CVE-2026-31771 - 8.1 - Bluetooth: hci_event: move wake reason storage into validated event handlers
   [-] CVE-2026-31709 - 8.8 - smb: client: validate the whole DACL before rewriting it in cifsacl
@@ -32,5 +22,15 @@
   [-] CVE-2026-31717 - 8.8 - ksmbd: validate owner of durable handle on reconnect
   [-] CVE-2026-31718 - 9.8 - ksmbd: fix use-after-free in __ksmbd_close_fd() via durable scavenger
   [-] CVE-2026-6665 - 8.1 - PgBouncer buffer overflow in SCRAM
+  [-] CVE-2026-41105 - 8.1 - Azure Monitor Action Group Notification System Elevation of Privilege Vulnerability
+  [-] CVE-2026-33109 - 9.9 - Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
+  [-] CVE-2026-40379 - 9.3 - Microsoft Enterprise Security Token Service (ESTS) Spoofing Vulnerability
+  [-] CVE-2026-32207 - 8.8 - Azure Machine Learning Notebook Spoofing Vulnerability
+  [-] CVE-2026-33823 - 9.6 - Microsoft Team Events Portal Information Disclosure Vulnerability
+  [-] CVE-2026-33844 - 9.0 - Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
+  [-] CVE-2026-34327 - 8.2 - Microsoft Partner Center Spoofing Vulnerability
+  [-] CVE-2026-35435 - 8.6 - Azure AI Foundry Elevation of Privilege Vulnerability
+  [-] CVE-2026-35428 - 9.6 - Azure Cloud Shell Spoofing Vulnerability
+  [-] CVE-2026-42826 - 10.0 - Azure DevOps Information Disclosure Vulnerability
 [+] Found 1 vulnerabilities more likely to be exploited
   [-] CVE-2026-35435 -- Azure AI Foundry Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-35435
