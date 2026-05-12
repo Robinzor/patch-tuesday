@@ -1,15 +1,56 @@
 [+] Microsoft Patch Tuesday Stats
-[+] May 2026 Early Security Updates
-[+] Found a total of 338 vulnerabilities
-  [-] 3 Elevation of Privilege Vulnerabilities
-  [-] 0 Security Feature Bypass Vulnerabilities
-  [-] 2 Remote Code Execution Vulnerabilities
-  [-] 5 Information Disclosure Vulnerabilities
-  [-] 0 Denial of Service Vulnerabilities
-  [-] 6 Spoofing Vulnerabilities
+[+] May 2026 Security Updates
+[+] Found a total of 457 vulnerabilities
+  [-] 61 Elevation of Privilege Vulnerabilities
+  [-] 6 Security Feature Bypass Vulnerabilities
+  [-] 31 Remote Code Execution Vulnerabilities
+  [-] 14 Information Disclosure Vulnerabilities
+  [-] 8 Denial of Service Vulnerabilities
+  [-] 13 Spoofing Vulnerabilities
   [-] 130 Edge - Chromium Vulnerabilities
 [+] Found 0 exploited in the wild
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2026-40379 - 9.3 - Microsoft Enterprise Security Token Service (ESTS) Spoofing Vulnerability
+  [-] CVE-2026-32207 - 8.8 - Azure Machine Learning Notebook Spoofing Vulnerability
+  [-] CVE-2026-33109 - 9.9 - Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
+  [-] CVE-2026-33117 - 9.1 - Azure SDK for Java Security Feature Bypass Vulnerability
+  [-] CVE-2026-34329 - 8.8 - Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability
+  [-] CVE-2026-35438 - 8.3 - Windows Admin Center Elevation of Privilege Vulnerability
+  [-] CVE-2026-35439 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-40363 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2026-40364 - 8.4 - Microsoft Word Remote Code Execution Vulnerability
+  [-] CVE-2026-40366 - 8.4 - Microsoft Word Remote Code Execution Vulnerability
+  [-] CVE-2026-40368 - 8.0 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-40415 - 8.1 - Windows TCP/IP Remote Code Execution Vulnerability
+  [-] CVE-2026-41089 - 9.8 - Windows Netlogon Remote Code Execution Vulnerability
+  [-] CVE-2026-41094 - 8.8 - Microsoft Data Formulator Remote Code Execution Vulnerability
+  [-] CVE-2026-41096 - 9.8 - Windows DNS Client Remote Code Execution Vulnerability
+  [-] CVE-2026-41109 - 8.8 - GitHub Copilot and Visual Studio Code Security Feature Bypass Vulnerability
+  [-] CVE-2026-42898 - 9.9 - Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability
+  [-] CVE-2026-33110 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-33112 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-33833 - 8.2 - Azure Machine Learning Notebook Spoofing Vulnerability
+  [-] CVE-2026-34332 - 8.0 - Windows Kernel-Mode Driver Remote Code Execution Vulnerability
+  [-] CVE-2026-40357 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-40358 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2026-40361 - 8.4 - Microsoft Word Remote Code Execution Vulnerability
+  [-] CVE-2026-40365 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-40367 - 8.4 - Microsoft Word Remote Code Execution Vulnerability
+  [-] CVE-2026-40370 - 8.8 - SQL Server Remote Code Execution Vulnerability
+  [-] CVE-2026-40402 - 9.3 - Windows Hyper-V Elevation of Privilege Vulnerability
+  [-] CVE-2026-35436 - 8.8 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+  [-] CVE-2026-40420 - 8.8 - Microsoft Office Click-To-Run Elevation of Privilege Vulnerability
+  [-] CVE-2026-41103 - 9.1 - Microsoft SSO Plugin for Jira & Confluence Elevation of Privilege Vulnerability
+  [-] CVE-2026-41613 - 8.8 - Visual Studio Code Elevation of Privilege Vulnerability
+  [-] CVE-2026-42823 - 9.9 - Azure Logic Apps Elevation of Privilege Vulnerability
+  [-] CVE-2026-42833 - 9.1 - Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability
+  [-] CVE-2026-33823 - 9.6 - Microsoft Team Events Portal Information Disclosure Vulnerability
+  [-] CVE-2026-33844 - 9.0 - Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
+  [-] CVE-2026-34327 - 8.2 - Microsoft Partner Center Spoofing Vulnerability
+  [-] CVE-2026-35428 - 9.6 - Azure Cloud Shell Spoofing Vulnerability
+  [-] CVE-2026-35435 - 8.6 - Azure AI Foundry Elevation of Privilege Vulnerability
+  [-] CVE-2026-42826 - 10.0 - Azure DevOps Information Disclosure Vulnerability
+  [-] CVE-2026-41105 - 8.1 - Azure Monitor Action Group Notification System Elevation of Privilege Vulnerability
   [-] CVE-2026-31706 - 8.8 - ksmbd: validate num_aces and harden ACE walk in smb_inherit_dacl()
   [-] CVE-2026-31771 - 8.1 - Bluetooth: hci_event: move wake reason storage into validated event handlers
   [-] CVE-2026-31709 - 8.8 - smb: client: validate the whole DACL before rewriting it in cifsacl
@@ -22,15 +63,19 @@
   [-] CVE-2026-31717 - 8.8 - ksmbd: validate owner of durable handle on reconnect
   [-] CVE-2026-31718 - 9.8 - ksmbd: fix use-after-free in __ksmbd_close_fd() via durable scavenger
   [-] CVE-2026-6665 - 8.1 - PgBouncer buffer overflow in SCRAM
-  [-] CVE-2026-41105 - 8.1 - Azure Monitor Action Group Notification System Elevation of Privilege Vulnerability
-  [-] CVE-2026-33109 - 9.9 - Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
-  [-] CVE-2026-40379 - 9.3 - Microsoft Enterprise Security Token Service (ESTS) Spoofing Vulnerability
-  [-] CVE-2026-32207 - 8.8 - Azure Machine Learning Notebook Spoofing Vulnerability
-  [-] CVE-2026-33823 - 9.6 - Microsoft Team Events Portal Information Disclosure Vulnerability
-  [-] CVE-2026-33844 - 9.0 - Azure Managed Instance for Apache Cassandra Remote Code Execution Vulnerability
-  [-] CVE-2026-34327 - 8.2 - Microsoft Partner Center Spoofing Vulnerability
-  [-] CVE-2026-35435 - 8.6 - Azure AI Foundry Elevation of Privilege Vulnerability
-  [-] CVE-2026-35428 - 9.6 - Azure Cloud Shell Spoofing Vulnerability
-  [-] CVE-2026-42826 - 10.0 - Azure DevOps Information Disclosure Vulnerability
-[+] Found 1 vulnerabilities more likely to be exploited
+  [-] CVE-2026-40403 - 8.8 - Windows Graphics Component Remote Code Execution Vulnerability
+  [-] CVE-2026-41086 - 8.8 - Windows Admin Center in Azure Portal Elevation of Privilege Vulnerability
+[+] Found 13 vulnerabilities more likely to be exploited
+  [-] CVE-2026-33840 -- Win32k Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-33840
+  [-] CVE-2026-33841 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-33841
+  [-] CVE-2026-35416 -- Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-35416
+  [-] CVE-2026-35417 -- Windows Win32k Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-35417
+  [-] CVE-2026-40364 -- Microsoft Word Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-40364
+  [-] CVE-2026-33835 -- Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-33835
+  [-] CVE-2026-33837 -- Windows TCP/IP Local Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-33837
+  [-] CVE-2026-40361 -- Microsoft Word Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-40361
+  [-] CVE-2026-40369 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-40369
+  [-] CVE-2026-40397 -- Windows Common Log File System Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-40397
+  [-] CVE-2026-40398 -- Windows Remote Desktop Services Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-40398
+  [-] CVE-2026-41103 -- Microsoft SSO Plugin for Jira & Confluence Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-41103
   [-] CVE-2026-35435 -- Azure AI Foundry Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-35435
