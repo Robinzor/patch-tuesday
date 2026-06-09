@@ -1,16 +1,73 @@
 [+] Microsoft Patch Tuesday Stats
-[+] June 2026 Early Security Updates
-[+] Found a total of 404 vulnerabilities
-  [-] 1 Elevation of Privilege Vulnerabilities
-  [-] 0 Security Feature Bypass Vulnerabilities
-  [-] 1 Remote Code Execution Vulnerabilities
-  [-] 4 Information Disclosure Vulnerabilities
-  [-] 0 Denial of Service Vulnerabilities
-  [-] 0 Spoofing Vulnerabilities
+[+] June 2026 Security Updates
+[+] Found a total of 606 vulnerabilities
+  [-] 67 Elevation of Privilege Vulnerabilities
+  [-] 19 Security Feature Bypass Vulnerabilities
+  [-] 55 Remote Code Execution Vulnerabilities
+  [-] 30 Information Disclosure Vulnerabilities
+  [-] 7 Denial of Service Vulnerabilities
+  [-] 27 Spoofing Vulnerabilities
   [-] 360 Edge - Chromium Vulnerabilities
 [+] Found 0 exploited in the wild
 [+] Highest Rated Vulnerabilities
-  [-] CVE-2026-10879 - 8.6 - DBI versions before 1.648 for Perl have a heap overflow when preparsing SQL statements with more than 9 binders
+  [-] CVE-2026-45472 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2026-45474 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2025-10263 - 9.3 - ARM: CVE-2025-10263 Completion of affected memory accesses might not be guaranteed by completion of a TLBI [kernel]
+  [-] CVE-2026-45456 - 8.4 - Microsoft Outlook and Word Remote Code Execution Vulnerability
+  [-] CVE-2026-45458 - 8.4 - Microsoft Outlook and Word Remote Code Execution Vulnerability
+  [-] CVE-2026-45461 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2026-45607 - 8.4 - Windows Hyper-V Remote Code Execution Vulnerability
+  [-] CVE-2026-45641 - 8.4 - Windows Hyper-V Remote Code Execution Vulnerability
+  [-] CVE-2026-45648 - 8.8 - Windows Active Directory Domain Services Remote Code Execution Vulnerability
+  [-] CVE-2026-45657 - 9.8 - Windows Kernel Remote Code Execution Vulnerability
+  [-] CVE-2026-47289 - 8.8 - Remote Desktop Client Remote Code Execution Vulnerability
+  [-] CVE-2026-47291 - 9.8 - HTTP.sys Remote Code Execution Vulnerability
+  [-] CVE-2026-32193 - 8.8 - Azure Kubernetes Service (AKS) Remote Code Execution Vulnerability
+  [-] CVE-2026-47298 - 8.0 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-41098 - 8.4 - Azure Stack Edge Spoofing Vulnerability
+  [-] CVE-2026-47635 - 8.4 - Microsoft Outlook and Word Remote Code Execution Vulnerability
+  [-] CVE-2026-47653 - 8.8 - Remote Desktop Client Remote Code Execution Vulnerability
+  [-] CVE-2026-47652 - 8.2 - Windows Hyper-V Remote Code Execution Vulnerability
+  [-] CVE-2026-26142 - 9.8 - Nuance PowerScribe Remote Code Execution Vulnerability
+  [-] CVE-2026-40371 - 8.8 - Microsoft Dynamics 365 (on-premises) Elevation of Privilege Vulnerability
+  [-] CVE-2026-42835 - 8.1 - Microsoft Teams for Android Information Disclosure Vulnerability
+  [-] CVE-2026-44822 - 8.2 - Microsoft Excel Information Disclosure Vulnerability
+  [-] CVE-2026-45463 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2026-45476 - 8.2 - Microsoft Azure Network Adapter Elevation of Privilege Vulnerability
+  [-] CVE-2026-45482 - 8.4 - Microsoft Visual Studio Code CoPilot Chat Extension Security Feature Bypass Vulnerability
+  [-] CVE-2026-45599 - 8.1 - Windows UPnP Device Host Remote Code Execution Vulnerability
+  [-] CVE-2026-45602 - 9.1 - Windows Dynamic Host Configuration Protocol (DHCP) Tampering Vulnerability
+  [-] CVE-2026-45635 - 8.1 - Windows UPnP Device Host Remote Code Execution Vulnerability
+  [-] CVE-2026-45644 - 8.0 - Microsoft Live Share Canvas SDK Elevation of Privilege Vulnerability
+  [-] CVE-2026-47281 - 9.6 - Visual Studio Code Elevation of Privilege Vulnerability
+  [-] CVE-2026-47643 - 9.8 - Azure Stack Edge Remote Code Execution Vulnerability
+  [-] CVE-2026-45484 - 8.8 - Microsoft SharePoint Elevation of Privilege Vulnerability
+  [-] CVE-2026-42904 - 9.6 - Windows TCP/IP Elevation of Privilege Vulnerability
+  [-] CVE-2026-42981 - 8.1 - Windows Performance Monitor Remote Code Execution Vulnerability
+  [-] CVE-2026-42974 - 8.1 - Windows Performance Monitor Remote Code Execution Vulnerability
+  [-] CVE-2026-44810 - 8.4 - Microsoft Cryptographic Services Elevation of Privilege Vulnerability
+  [-] CVE-2026-44815 - 9.8 - DHCP Client Service Remote Code Execution Vulnerability
+  [-] CVE-2026-42985 - 8.8 - Remote Desktop Client Remote Code Execution Vulnerability
+  [-] CVE-2026-42987 - 8.1 - Windows Deployment Services (WDS) Remote Code Execution
   [-] CVE-2026-48567 - 10.0 - Azure HorizonDB  Elevation of Privilege Vulnerability
+  [-] CVE-2026-10879 - 8.6 - DBI versions before 1.648 for Perl have a heap overflow when preparsing SQL statements with more than 9 binders
   [-] CVE-2026-48579 - 9.1 - Microsoft Exchange Online Information Disclosure Vulnerability
-[+] Found 0 vulnerabilities more likely to be exploited
+  [-] CVE-2026-47631 - 8.1 - Microsoft Exchange Server Spoofing Vulnerability
+  [-] CVE-2026-45503 - 8.1 - Microsoft Exchange Server Information Disclosure Vulnerability
+  [-] CVE-2026-45504 - 8.8 - Microsoft Exchange Server Elevation of Privilege Vulnerability
+[+] Found 15 vulnerabilities more likely to be exploited
+  [-] CVE-2026-47291 -- HTTP.sys Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-47291
+  [-] CVE-2026-50508 -- Windows NTLM Spoofing Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-50508
+  [-] CVE-2026-45586 -- Windows Collaborative Translation Framework (CTFMON) Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-45586
+  [-] CVE-2026-45658 -- Windows BitLocker Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-45658
+  [-] CVE-2026-47634 -- Microsoft SharePoint Server Spoofing Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-47634
+  [-] CVE-2026-45481 -- Microsoft SharePoint Server Spoofing Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-45481
+  [-] CVE-2026-49160 -- HTTP.sys Denial of Service Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-49160
+  [-] CVE-2026-50507 -- Windows BitLocker Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-50507
+  [-] CVE-2026-42905 -- Windows DWM Core Library Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-42905
+  [-] CVE-2026-42980 -- NT OS Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-42980
+  [-] CVE-2026-42986 -- Microsoft Graphics Component Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-42986
+  [-] CVE-2026-42989 -- Winlogon Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-42989
+  [-] CVE-2026-42985 -- Remote Desktop Client Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-42985
+  [-] CVE-2026-44803 -- Windows Graphics Component Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-44803
+  [-] CVE-2026-44812 -- Windows Graphics Component Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-44812
