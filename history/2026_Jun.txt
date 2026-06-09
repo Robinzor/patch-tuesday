@@ -1,6 +1,6 @@
 [+] Microsoft Patch Tuesday Stats
 [+] June 2026 Early Security Updates
-[+] Found a total of 391 vulnerabilities
+[+] Found a total of 404 vulnerabilities
   [-] 1 Elevation of Privilege Vulnerabilities
   [-] 0 Security Feature Bypass Vulnerabilities
   [-] 1 Remote Code Execution Vulnerabilities
@@ -10,6 +10,7 @@
   [-] 360 Edge - Chromium Vulnerabilities
 [+] Found 0 exploited in the wild
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2026-10879 - 8.6 - DBI versions before 1.648 for Perl have a heap overflow when preparsing SQL statements with more than 9 binders
   [-] CVE-2026-48567 - 10.0 - Azure HorizonDB  Elevation of Privilege Vulnerability
   [-] CVE-2026-48579 - 9.1 - Microsoft Exchange Online Information Disclosure Vulnerability
 [+] Found 0 vulnerabilities more likely to be exploited
