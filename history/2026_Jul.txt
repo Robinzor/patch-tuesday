@@ -1,0 +1,49 @@
+[+] Microsoft Patch Tuesday Stats
+[+] July 2026 Early Security Updates
+[+] Found a total of 574 vulnerabilities
+  [-] 5 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 0 Remote Code Execution Vulnerabilities
+  [-] 0 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 0 Spoofing Vulnerabilities
+  [-] 473 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2026-50721 - 8.1 - IKEv1 Denial of Service via RSA-SHA1 (PKCS#1 Version 1.5 Encrypted) authentication payload
+  [-] CVE-2026-50722 - 8.1 - IKEv2 Denial of Service via RSA-SHA1 (PKCS#1 RSASSA-PKCS1-v1_5) authentication payload
+  [-] CVE-2026-9547 - 9.1 - SSH improper host validation
+  [-] CVE-2026-8924 - 9.1 - trailing dot domain super cookie
+  [-] CVE-2026-8286 - 8.1 - wrong STARTTLS connection reuse
+  [-] CVE-2026-56002 - 8.5 - libXfont2 PCF Font Parsing Heap Buffer Overflow
+  [-] CVE-2026-38968 - 9.8 - ntopng through 6.6 is vulnerable to Predictable Session Identifier which can lead to Session Hijacking. HTTP session identifiers in src/HTTPserver.cpp use weak time-seeded pseudo-randomness during session creation. As a result, fresh authenticated logins can receive deterministic or colliding session cookies under attacker-controlled timing.
+  [-] CVE-2026-14380 - 8.8 - DBI versions before 1.650 for Perl are vulnerable to code injection via caller-influenced Profile
+  [-] CVE-2026-14740 - 9.1 - DBI versions before 1.650 for Perl read one byte out-of-bounds in preparse when deleting an initial SQL comment
+  [-] CVE-2026-58253 - 8.8 - NATS Server: Route API Auth Bypass
+  [-] CVE-2026-56001 - 8.5 - libXfont2 BitmapScaleBitmaps Integer Overflow Heap Buffer Overflow
+  [-] CVE-2026-56003 - 8.5 - libXfont2 computeProps Property Buffer Heap Buffer Overflow
+  [-] CVE-2026-55999 - 8.5 - xorg-server / xwayland glamor font atlas Heap Buffer Overflow
+  [-] CVE-2026-14739 - 8.6 - DBI versions before 1.650 for Perl have a heap overflow when preparsing SQL statements with an extreme number of placeholders
+  [-] CVE-2026-57100 - 9.9 - Microsoft Entra Provisioning Service Elevation of Privilege Vulnerability
+  [-] CVE-2026-45499 - 9.9 - Azure OpenAI Elevation of Privilege Vulnerability
+  [-] CVE-2026-41106 - 9.3 - Microsoft 365 Copilot Elevation of Privilege Vulnerability
+  [-] CVE-2026-56645 - 8.8 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2026-57983 - 8.7 - Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability
+  [-] CVE-2026-58282 - 8.1 - Microsoft Edge (Chromium-based) Spoofing Vulnerability
+  [-] CVE-2026-58283 - 8.1 - Microsoft Edge (Chromium-based) Spoofing Vulnerability
+  [-] CVE-2026-58287 - 8.3 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2026-57974 - 8.8 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2026-57981 - 8.8 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2026-58284 - 8.3 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2026-58285 - 8.3 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2026-58286 - 8.1 - Microsoft Edge (Chromium-based) Spoofing Vulnerability
+  [-] CVE-2026-58288 - 8.3 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2026-58289 - 9.0 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2026-58293 - 8.1 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2026-58295 - 8.3 - Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability
+  [-] CVE-2026-58281 - 8.3 - Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability
+  [-] CVE-2026-54998 - 8.8 - Microsoft Exchange Online Elevation of Privilege Vulnerability
+  [-] CVE-2026-58525 - 8.2 - Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability
+  [-] CVE-2026-58596 - 8.3 - Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability
+[+] Found 1 vulnerabilities more likely to be exploited
+  [-] CVE-2026-58596 -- Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-58596
