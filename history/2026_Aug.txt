@@ -1,6 +1,6 @@
 [+] Microsoft Patch Tuesday Stats
 [+] August 2026 Early Security Updates
-[+] Found a total of 1249 vulnerabilities
+[+] Found a total of 1517 vulnerabilities
   [-] 14 Elevation of Privilege Vulnerabilities
   [-] 0 Security Feature Bypass Vulnerabilities
   [-] 2 Remote Code Execution Vulnerabilities
@@ -16,11 +16,53 @@
   [-] CVE-2026-64594 - 9.8 - usb: gadget: f_fs: initialize reset_work at allocation time
   [-] CVE-2026-64593 - 9.8 - btrfs: do not trim a device which is not writeable
   [-] CVE-2026-34191 - 9.1 - Apache Portable Runtime Utility: SQL Injection in apr_dbd_oracle
+  [-] CVE-2026-68082 - 8.2 - libceph: fix two unsafe bare decodes in decode_lockers()
+  [-] CVE-2026-68407 - 9.8 - wifi: nl80211: free RNR data on MBSSID mismatch
+  [-] CVE-2026-68395 - 9.8 - ata: sata_dwc_460ex: enable SATA interrupts only after IRQ handler is registered
+  [-] CVE-2026-68143 - 9.8 - net: slip: serialize receive against buffer reallocation
+  [-] CVE-2026-68176 - 9.8 - tracing: Fix mmiotrace possible NULL dereferencing of hiter->dev
+  [-] CVE-2026-68366 - 8.1 - usb: gadget: uvc: clamp SEND_RESPONSE length to the response buffer
+  [-] CVE-2026-68131 - 9.8 - rbd: Reset positive result codes to zero in object map update path
+  [-] CVE-2026-68218 - 9.8 - media: pci: dm1105: Free allocated workqueue
+  [-] CVE-2026-68406 - 9.8 - wifi: cfg80211: validate PMSR FTM preamble range
+  [-] CVE-2026-68364 - 9.8 - drm/amd/display: Fix ISM dc_lock deadlock during suspend
+  [-] CVE-2026-68354 - 9.8 - firewire: net: Fix fragmented datagram reassembly
+  [-] CVE-2026-68180 - 9.8 - intel_th: fix MSC output device reference leak
+  [-] CVE-2026-68357 - 9.8 - watchdog: pretimeout: Fix UAF in watchdog_unregister_governor()
+  [-] CVE-2026-68402 - 9.8 - wifi: cfg80211: bound element ID read when checking non-inheritance
+  [-] CVE-2026-68310 - 9.8 - wifi: mt76: mt7915: guard HE capability lookups
+  [-] CVE-2026-68140 - 9.8 - net/iucv: fix use-after-free of a severed iucv_path
+  [-] CVE-2026-68349 - 9.8 - wifi: carl9170: fix buffer overflow in rx_stream failover path
+  [-] CVE-2026-68212 - 9.8 - media: saa7134: Fix a possible memory leak in saa7134_video_init1
+  [-] CVE-2026-68377 - 9.8 - net/sched: act_tunnel_key: Defer dst_release to RCU callback
+  [-] CVE-2026-68146 - 9.8 - ftrace: Add global mutex to serialize trace_parser access
+  [-] CVE-2026-68214 - 9.8 - media: rtl2832: fix use-after-free in rtl2832_remove()
+  [-] CVE-2026-68360 - 9.8 - hwmon: (corsair-cpro) Stop device IO before calling hid_hw_stop
+  [-] CVE-2026-68359 - 9.8 - hwmon: (nzxt-smart2) Stop device IO before calling hid_hw_stop
+  [-] CVE-2026-68324 - 9.8 - iommu/intel: Fix out-of-bounds memset in dmar_latency_disable()
+  [-] CVE-2026-68121 - 9.8 - pppoe: reload header pointer after dev_hard_header()
+  [-] CVE-2026-68132 - 9.8 - super: fix emergency thaw deadlock on frozen block devices
+  [-] CVE-2026-68325 - 9.8 - iommu/amd: Bound the early ACPI HID map
   [-] CVE-2026-64565 - 9.8 - Input: ims-pcu - fix heap-buffer-overflow in ims_pcu_process_data()
   [-] CVE-2026-64597 - 8.6 - smb: client: fix double-free in SMB2_close() replay
   [-] CVE-2026-64604 - 8.4 - KVM: VMX: Grab vmcs12 on CR8 interception update iff vCPU is in guest mode
   [-] CVE-2026-68480 - 8.8 - x86/bugs: Make Safe-RET robust against interrupt injection
   [-] CVE-2026-50540 - 9.6 - Kata Containers: Config Path Annotation Arbitrary File Loading
+  [-] CVE-2026-68210 - 9.8 - media: stm32: dcmi: unregister notifier on probe failure
+  [-] CVE-2026-68399 - 9.8 - bpf: Fix UAF in sock clone early bailouts
+  [-] CVE-2026-68127 - 9.8 - ila: reload IPv6 header after pskb_may_pull in checksum adjust
+  [-] CVE-2026-68391 - 9.8 - Bluetooth: mgmt: hold reference for hci_conn in mgmt_pending_cmds
+  [-] CVE-2026-68185 - 9.8 - LoongArch: Move jump_label_init() before parse_early_param()
+  [-] CVE-2026-68287 - 9.8 - drop_monitor: fix size calculations for 64-bit attributes
+  [-] CVE-2026-68166 - 9.8 - userfaultfd: prevent registration of special VMAs
+  [-] CVE-2026-68198 - 9.8 - wifi: ath6kl: fix use-after-free in aggr_reset_state()
+  [-] CVE-2026-68207 - 9.8 - media: ti: vpe: unwind v4l2 device registration on probe error
+  [-] CVE-2026-68142 - 9.8 - geneve: require CAP_NET_ADMIN in the device netns for changelink
+  [-] CVE-2026-68160 - 9.1 - ceph: fix pre-auth out-of-bounds read on snaptrace in ceph_handle_caps()
+  [-] CVE-2026-68144 - 9.8 - phonet: pep: fix use-after-free in pep_get_sb()
+  [-] CVE-2026-68236 - 9.8 - drm/amd/display: set new_stream to NULL after release
+  [-] CVE-2026-68340 - 9.8 - hwmon: occ: validate poll response sensor blocks
+  [-] CVE-2026-68153 - 9.8 - libceph: remove debugfs files before client teardown
   [-] CVE-2026-62836 - 8.7 - Azure SQL Managed Instance Elevation of Privilege Vulnerability
   [-] CVE-2026-62896 - 9.6 - Microsoft Teams Elevation of Privilege Vulnerability
   [-] CVE-2026-65668 - 8.8 - Microsoft Purview eDiscovery Elevation of Privilege Vulnerability
