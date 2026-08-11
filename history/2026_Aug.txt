@@ -1,15 +1,93 @@
 [+] Microsoft Patch Tuesday Stats
-[+] August 2026 Early Security Updates
-[+] Found a total of 1517 vulnerabilities
-  [-] 14 Elevation of Privilege Vulnerabilities
-  [-] 0 Security Feature Bypass Vulnerabilities
-  [-] 2 Remote Code Execution Vulnerabilities
-  [-] 1 Information Disclosure Vulnerabilities
-  [-] 0 Denial of Service Vulnerabilities
-  [-] 3 Spoofing Vulnerabilities
+[+] August 2026 Security Updates
+[+] Found a total of 751 vulnerabilities
+  [-] 176 Elevation of Privilege Vulnerabilities
+  [-] 11 Security Feature Bypass Vulnerabilities
+  [-] 110 Remote Code Execution Vulnerabilities
+  [-] 86 Information Disclosure Vulnerabilities
+  [-] 12 Denial of Service Vulnerabilities
+  [-] 21 Spoofing Vulnerabilities
   [-] 0 Edge - Chromium Vulnerabilities
-[+] Found 0 exploited in the wild
+[+] Found 1 exploited in the wild
+  [-] CVE-2026-68820 - 7.0 - Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2026-65768 - 8.8 - Microsoft Teams Remote Code Execution Vulnerability
+  [-] CVE-2026-57105 - 8.0 - Microsoft Office SharePoint Spoofing Vulnerability
+  [-] CVE-2026-62827 - 8.8 - Microsoft SharePoint Server Elevation of Privilege Vulnerability
+  [-] CVE-2026-63514 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-63520 - 8.1 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-62896 - 9.6 - Microsoft Teams Elevation of Privilege Vulnerability
+  [-] CVE-2026-62836 - 8.7 - Azure SQL Managed Instance Elevation of Privilege Vulnerability
+  [-] CVE-2026-65668 - 8.8 - Microsoft Purview eDiscovery Elevation of Privilege Vulnerability
+  [-] CVE-2026-50515 - 9.9 - Azure Service Bus Remote Code Execution Vulnerability
+  [-] CVE-2026-59115 - 9.9 - Microsoft Entra Provisioning Service Elevation of Privilege Vulnerability
+  [-] CVE-2026-50481 - 9.9 - Azure Active Directory Elevation of Privilege Vulnerability
+  [-] CVE-2026-63508 - 10.0 - Microsoft Planetary Computer Pro Elevation of Privilege Vulnerability
+  [-] CVE-2026-62873 - 9.8 - Microsoft 365 Admin Center Elevation of Privilege Vulnerability
+  [-] CVE-2026-49179 - 8.8 - Windows Active Directory Domain Services Remote Code Execution Vulnerability
+  [-] CVE-2026-59113 - 8.8 - Visual Studio Code Remote Code Execution Vulnerability
+  [-] CVE-2026-59133 - 8.8 - Microsoft High Performance Computing (HPC) Pack Elevation of Privilege Vulnerability
+  [-] CVE-2026-62785 - 8.8 - Windows LDAP - Lightweight Directory Access Protocol Remote Code Execution Vulnerability
+  [-] CVE-2026-62792 - 8.1 - Windows TCP/IP Remote Code Execution Vulnerability
+  [-] CVE-2026-62784 - 8.8 - Microsoft Local Security Authority Server (lsasrv) Remote Code Execution Vulnerability
+  [-] CVE-2026-62795 - 8.8 - Windows LDAP - Lightweight Directory Access Protocol Remote Code Execution Vulnerability
+  [-] CVE-2026-62815 - 9.8 - Microsoft QUIC Remote Code Execution Vulnerability
+  [-] CVE-2026-62816 - 8.8 - Windows Reliable Multicast Transport Driver (RMCAST) Remote Code Execution Vulnerability
+  [-] CVE-2026-62817 - 8.8 - Windows DNS Server Remote Code Execution Vulnerability
+  [-] CVE-2026-62818 - 8.8 - Windows Active Directory Certificate Services (AD CS) Remote Code Execution Vulnerability
+  [-] CVE-2026-62819 - 8.1 - Windows Routing and Remote Access Service (RRAS) Remote Code Execution Vulnerability
+  [-] CVE-2026-62820 - 8.1 - Windows DNS Server Remote Code Execution Vulnerability
+  [-] CVE-2026-62878 - 9.8 - Windows DNS Server Remote Code Execution Vulnerability
+  [-] CVE-2026-62889 - 8.1 - Windows Secure Socket Tunneling Protocol (SSTP) Remote Code Execution Vulnerability
+  [-] CVE-2026-62893 - 9.8 - Windows Deployment Services TFTP Server Remote Code Execution Vulnerability
+  [-] CVE-2026-62913 - 8.8 - Microsoft Exchange Server Remote Code Execution Vulnerability
+  [-] CVE-2026-65658 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-65663 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-65665 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-65789 - 8.1 - Windows DNS Server Remote Code Execution Vulnerability
+  [-] CVE-2026-65807 - 8.8 - Microsoft Excel Remote Code Execution Vulnerability
+  [-] CVE-2026-65811 - 8.8 - Power BI Remote Code Execution Vulnerability
+  [-] CVE-2026-65815 - 8.8 - Microsoft Dynamics 365 On-Premises Remote Code Execution Vulnerability
+  [-] CVE-2026-69320 - 8.8 - Visual Studio Code Remote Code Execution Vulnerability
+  [-] CVE-2026-69306 - 8.2 - Visual Studio Code Security Feature Bypass Vulnerability
+  [-] CVE-2026-70321 - 8.8 - Microsoft SharePoint Remote Code Execution Vulnerability
+  [-] CVE-2026-70324 - 8.8 - Microsoft SharePoint Elevation of Privilege Vulnerability
+  [-] CVE-2026-70329 - 8.8 - Microsoft Outlook Remote Code Execution Vulnerability
+  [-] CVE-2026-70336 - 8.8 - Visual Studio Code Remote Code Execution Vulnerability
+  [-] CVE-2026-57104 - 8.8 - Azure Storage Explorer Elevation of Privilege Vulnerability
+  [-] CVE-2026-70340 - 8.1 - Azure CycleCloud Elevation of Privilege Vulnerability
+  [-] CVE-2026-62778 - 8.1 - Windows DNS Elevation of Privilege Vulnerability
+  [-] CVE-2026-62781 - 8.1 - RPC Runtime Library Remote Code Execution Vulnerability
+  [-] CVE-2026-62800 - 8.8 - Windows SMBv3 Server Remote Code Execution Vulnerability
+  [-] CVE-2026-62790 - 8.8 - Windows SMBv3 Server Remote Code Execution Vulnerability
+  [-] CVE-2026-62823 - 8.8 - Windows DHCP Server Remote Code Execution Vulnerability
+  [-] CVE-2026-62824 - 8.8 - Remote Desktop Client Remote Code Execution Vulnerability
+  [-] CVE-2026-62822 - 8.8 - Windows GDI+ Remote Code Execution Vulnerability
+  [-] CVE-2026-62872 - 8.8 - .NET Framework Elevation of Privilege Vulnerability
+  [-] CVE-2026-62911 - 8.0 - Microsoft Exchange Server Elevation of Privilege Vulnerability
+  [-] CVE-2026-64901 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-64921 - 8.8 - Microsoft SharePoint Server Elevation of Privilege Vulnerability
+  [-] CVE-2026-65679 - 8.1 - Windows iSCSI Target Service Remote Code Execution Vulnerability
+  [-] CVE-2026-65791 - 9.8 - Windows iSCSI Target Service Remote Code Execution Vulnerability
+  [-] CVE-2026-66802 - 8.1 - Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability
+  [-] CVE-2026-66805 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-66808 - 8.8 - Microsoft SharePoint Server Remote Code Execution Vulnerability
+  [-] CVE-2026-56179 - 8.3 - Windows Network Address Translation (NAT) Spoofing Vulnerability
+  [-] CVE-2026-70130 - 8.4 - Microsoft Office Remote Code Execution Vulnerability
+  [-] CVE-2026-70306 - 9.3 - Microsoft Office SharePoint Spoofing Vulnerability
+  [-] CVE-2026-70326 - 8.8 - Microsoft SharePoint Server Elevation of Privilege Vulnerability
+  [-] CVE-2026-70337 - 8.8 - Microsoft PowerShell Remote Code Execution Vulnerability
+  [-] CVE-2026-70332 - 9.6 - Microsoft Office SharePoint Spoofing Vulnerability
+  [-] CVE-2026-71331 - 8.1 - Windows Device Health Attestation (DHA) Remote Code Execution Vulnerability
+  [-] CVE-2026-65767 - 8.8 - Microsoft Teams for Android and iOS Spoofing Vulnerability
+  [-] CVE-2026-62830 - 9.9 - Azure SRE Agent Elevation of Privilege Vulnerability
+  [-] CVE-2026-56161 - 9.6 - Azure Logic Apps Information Disclosure Vulnerability
+  [-] CVE-2026-50516 - 9.4 - Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
+  [-] CVE-2026-56162 - 10.0 - Azure SQL Database Elevation of Privilege Vulnerability
+  [-] CVE-2026-65667 - 10.0 - Microsoft Teams Elevation of Privilege Vulnerability
+  [-] CVE-2026-49163 - 8.8 - Application Insights Profiler Elevation of Privilege Vulnerability
+  [-] CVE-2026-68823 - 9.1 - Azure Confidential Ledger Remote Code Execution Vulnerability
+  [-] CVE-2026-62869 - 8.8 - Azure Entra ID Spoofing Vulnerability
   [-] CVE-2026-64564 - 9.8 - sctp: don't free the ASCONF's own transport in DEL-IP processing
   [-] CVE-2026-64562 - 9.8 - KVM: nVMX: Hide shadow VMCS right after VMCLEAR
   [-] CVE-2026-64584 - 9.8 - usb: gadget: f_midi: cancel pending IN work before freeing the midi object
@@ -63,84 +141,40 @@
   [-] CVE-2026-68236 - 9.8 - drm/amd/display: set new_stream to NULL after release
   [-] CVE-2026-68340 - 9.8 - hwmon: occ: validate poll response sensor blocks
   [-] CVE-2026-68153 - 9.8 - libceph: remove debugfs files before client teardown
-  [-] CVE-2026-62836 - 8.7 - Azure SQL Managed Instance Elevation of Privilege Vulnerability
-  [-] CVE-2026-62896 - 9.6 - Microsoft Teams Elevation of Privilege Vulnerability
-  [-] CVE-2026-65668 - 8.8 - Microsoft Purview eDiscovery Elevation of Privilege Vulnerability
-  [-] CVE-2026-59118 - 9.3 - Microsoft Power Apps Elevation of Privilege Vulnerability
-  [-] CVE-2026-50516 - 9.4 - Microsoft Azure Kubernetes Service Elevation of Privilege Vulnerability
-  [-] CVE-2026-50481 - 9.9 - Azure Active Directory Elevation of Privilege Vulnerability
-  [-] CVE-2026-59115 - 9.9 - Microsoft Entra Provisioning Service Elevation of Privilege Vulnerability
-  [-] CVE-2026-49163 - 8.8 - Application Insights Profiler Elevation of Privilege Vulnerability
-  [-] CVE-2026-68823 - 9.1 - Azure Confidential Ledger Remote Code Execution Vulnerability
-  [-] CVE-2026-70332 - 9.6 - Microsoft Office SharePoint Spoofing Vulnerability
-  [-] CVE-2026-56161 - 9.6 - Azure Logic Apps Information Disclosure Vulnerability
-  [-] CVE-2026-62830 - 9.9 - Azure SRE Agent Elevation of Privilege Vulnerability
-  [-] CVE-2026-65667 - 10.0 - Microsoft Teams Elevation of Privilege Vulnerability
-  [-] CVE-2026-56162 - 10.0 - Azure SQL Database Elevation of Privilege Vulnerability
-  [-] CVE-2026-50515 - 9.9 - Azure Service Bus Remote Code Execution Vulnerability
-  [-] CVE-2026-62869 - 8.8 - Azure Entra ID Spoofing Vulnerability
-  [-] CVE-2026-63508 - 10.0 - Microsoft Planetary Computer Pro Elevation of Privilege Vulnerability
-  [-] CVE-2026-62873 - 9.8 - Microsoft 365 Admin Center Elevation of Privilege Vulnerability
-  [-] CVE-2025-40139 - 8.4 - smc: Use __sk_dst_get() and dst_dev_rcu() in in smc_clc_prfx_set().
-  [-] CVE-2025-40170 - 8.1 - net: use dst_dev_rcu() in sk_setup_caps()
-  [-] CVE-2026-58023 - 9.1 - Apache Thrift: c_glib heap out-of-bounds read in transport leftover-bytes path
-  [-] CVE-2025-60876 - 9.4 - BusyBox wget thru 1.3.7 accepted raw CR (0x0D)/LF (0x0A) and other C0 control bytes in the HTTP request-target (path/query), allowing the request line to be split and attacker-controlled headers to be injected. To preserve the HTTP/1.1 request-line shape METHOD SP request-target SP HTTP/1.1, a raw space (0x20) in the request-target must also be rejected (clients should use %20).
-  [-] CVE-2026-5435 - 8.6 - Potential buffer overflow in ns_sprintrrf TSIG handling path
-  [-] CVE-2024-48063 - 9.8 - In PyTorch <=2.4.1, the RemoteModule has Deserialization RCE. NOTE: this is disputed by multiple parties because this is intended behavior in PyTorch distributed computing.
-  [-] CVE-2026-64448 - 8.1 - smb: client: restrict implied bcc[0] exemption to responses without data area
-  [-] CVE-2025-68822 - 9.8 - Input: alps - fix use-after-free bugs caused by dev3_register_work
-  [-] CVE-2026-45447 - 8.8 - Heap Use-After-Free in the PKCS7_verify() Function
-  [-] CVE-2025-71072 - 9.8 - shmem: fix recovery on rename failures
-  [-] CVE-2025-71228 - 8.4 - LoongArch: Set correct protection_map[] for VM_NONE/VM_SHARED
-  [-] CVE-2026-23213 - 8.4 - drm/amd/pm: Disable MMIO access during SMU Mode 1 reset
-  [-] CVE-2026-23214 - 8.4 - btrfs: reject new transactions if the fs is fully read-only
-  [-] CVE-2025-69299 - 8.3 - WordPress Oxygen theme <= 6.0.8 - Server Side Request Forgery (SSRF) vulnerability
-  [-] CVE-2022-31631 - 9.1 - PDO::quote() may return unquoted string
-  [-] CVE-2024-43402 - 8.1 - Rust OS Command Injection/Argument Injection vulnerability
-  [-] CVE-2025-40251 - 9.8 - devlink: rate: Unset parent pointer in devl_rate_nodes_destroy
-  [-] CVE-2021-32803 - 8.2 - Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning
-  [-] CVE-2026-0038 - 8.4 - In multiple functions of mem_protect.c, there is a possible way to execute arbitrary code due to a logic error in the code. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
-  [-] CVE-2021-37701 - 8.2 - Arbitrary File Creation/Overwrite via insufficient symlink protection due to directory cache poisoning using symbolic links
-  [-] CVE-2024-36138 - 8.1 - Bypass incomplete fix of CVE-2024-27980, that arises from improper handling of batch files with all possible extensions on Windows via child_process.spawn / child_process.spawnSync. A malicious command line argument can inject arbitrary commands and achieve code execution even if the shell option is not enabled.
-  [-] CVE-2026-0031 - 8.4 - In multiple functions of mem_protect.c, there is a possible out of bounds write due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
-  [-] CVE-2026-35469 - 8.1 - SpdyStream: DOS on CRI
-  [-] CVE-2021-24028 - 9.8 - An invalid free in Thrift's table-based serialization can cause the application to crash or potentially result in code execution or other undesirable effects. This issue affects Facebook Thrift prior to v2021.02.22.00.
-  [-] CVE-2026-64380 - 8.2 - smb: client: harden POSIX SID length parsing
-  [-] CVE-2024-36048 - 9.8 - QAbstractOAuth in Qt Network Authorization in Qt before 5.15.17, 6.x before 6.2.13, 6.3.x through 6.5.x before 6.5.6, and 6.6.x through 6.7.x before 6.7.1 uses only the time to seed the PRNG, which may result in guessable values.
-  [-] CVE-2023-3955 - 8.8 - Kubernetes - Windows nodes - Insufficient input sanitization leads to privilege escalation
-  [-] CVE-2024-30896 - 9.1 - InfluxDB OSS 2.x through 2.7.11 stores the administrative operator token under the default organization which allows authorized users with read access to the authorization resource of the default organization to retrieve the operator token. InfluxDB OSS 1.x, Enterprise, Cloud, Cloud Dedicated and Clustered are not affected. NOTE: The researcher states that InfluxDB allows allAccess administrators to retrieve all raw tokens via an "influx auth ls" command. The supplier indicates that the organizations feature is operating as intended and that users may choose to add users to non-default organizations. A future release of InfluxDB 2.x will remove the ability to retrieve tokens from the API.
-  [-] CVE-2026-23918 - 8.8 - Apache HTTP Server: http2: double free and possible RCE on early reset
-  [-] CVE-2026-64319 - 9.1 - nvmet-auth: validate reply message payload bounds against transfer length
-  [-] CVE-2025-71074 - 9.8 - functionfs: fix the open/removal races
-  [-] CVE-2026-58662 - 9.1 - Apache Thrift: C++ THeaderTransport::readString() info-header length bounds bypass
-  [-] CVE-2025-44904 - 8.8 - hdf5 v1.14.6 was discovered to contain a heap buffer overflow via the H5VM_memcpyvv function.
-  [-] CVE-2026-13321 - 8.6 - DNSSEC Validation Bypass via Out-of-Zone NSEC Next Field
-  [-] CVE-2026-64249 - 8.4 - fpga: region: fix use-after-free in child_regions_with_firmware()
-  [-] CVE-2026-64254 - 8.4 - NTB: epf: Avoid pci_iounmap() with offset when PEER_SPAD and CONFIG share BAR
-  [-] CVE-2026-64246 - 8.4 - power: reset: linkstation-poweroff: fix use-after-free in the linkstation_poweroff_init()
-  [-] CVE-2026-48144 - 9.1 - Apache Thrift: c_glib TLS Client Missing Hostname Verification
-  [-] CVE-2026-22184 - 9.8 - zlib <= 1.3.1.2 untgz Global Buffer Overflow in TGZfname()
-  [-] CVE-2023-28115 - 9.8 - Snappy vulnerable to PHAR deserialization, allowing remote code execution
-  [-] CVE-2025-71073 - 9.8 - Input: lkkbd - disable pending work before freeing device
-  [-] CVE-2026-64320 - 8.4 - nvmet: fix pre-auth out-of-bounds heap read in Discovery Get Log Page
-  [-] CVE-2025-37795 - 8.4 - Rejected reason: This CVE ID has been rejected or withdrawn by its CVE Numbering Authority.
-  [-] CVE-2026-31771 - 8.1 - Bluetooth: hci_event: move wake reason storage into validated event handlers
-  [-] CVE-2021-32804 - 8.2 - Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization
-  [-] CVE-2026-64513 - 8.4 - KVM: x86: Unconditionally recompute CR8 intercept on PPR update
-  [-] CVE-2026-7383 - 8.1 - Possible Heap Buffer Overflow in ASN.1 Multibyte String Conversion
-  [-] CVE-2026-64456 - 8.4 - hwrng: virtio: clamp device-reported used.len at copy_data()
-  [-] CVE-2023-3676 - 8.8 - Kubernetes - Windows nodes - Insufficient input sanitization leads to privilege escalation
-  [-] CVE-2026-34182 - 9.1 - CMS AuthEnvelopedData Processing May Accept Forged Messages
-  [-] CVE-2020-12627 - 9.8 - Calibre-Web 0.6.6 allows authentication bypass because of the 'A0Zr98j/3yX R~XHH!jmN]LWX/,?RT' hardcoded secret key.
-  [-] CVE-2026-64475 - 8.8 - vfio/pci: Release the VGA arbiter client on register_device() failure
-  [-] CVE-2025-40776 - 8.6 - Birthday Attack against Resolvers supporting ECS
-  [-] CVE-2019-5827 - 8.8 - Integer overflow in SQLite via WebSQL in Google Chrome prior to 74.0.3729.131 allowed a remote attacker to potentially exploit heap corruption via a crafted HTML page.
-  [-] CVE-2026-24072 - 8.8 - Apache HTTP Server: mod_rewrite elevation of privileges via ap_expr
-  [-] CVE-2026-33186 - 8.1 - gRPC-Go has an authorization bypass via missing leading slash in :path
-  [-] CVE-2019-10783 - 9.8 - None
-  [-] CVE-2026-64442 - 8.1 - staging: rtl8723bs: fix OOB reads in IE loops in issue_assocreq() and join_cmd_hdl()
-  [-] CVE-2025-4802 - 8.4 - Untrusted LD_LIBRARY_PATH environment variable vulnerability in the GNU C Library version 2.27 to 2.38 allows attacker controlled loading of dynamically shared library in statically compiled setuid binaries that call dlopen (including internal dlopen calls after setlocale or calls to NSS functions such as getaddrinfo).
-  [-] CVE-2026-43249 - 8.8 - 9p/xen: protect xen_9pfs_front_free against concurrent calls
-  [-] CVE-2026-64252 - 8.4 - MIPS: DEC: Prevent initial console buffer from landing in XKPHYS
-  [-] CVE-2026-66032 - 8.8 - libssh2 Double-Free Heap Corruption via sftp_open()
-[+] Found 0 vulnerabilities more likely to be exploited
+  [-] CVE-2026-59118 - 9.3 - Copilot Cowork Elevation of Privilege Vulnerability
+  [-] CVE-2026-59124 - 9.8 - Microsoft High Performance Computing (HPC) Pack Remote Code Execution Vulnerability
+[+] Found 34 vulnerabilities more likely to be exploited
+  [-] CVE-2026-58650 -- Visual Studio Code Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-58650
+  [-] CVE-2026-63520 -- Microsoft SharePoint Server Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-63520
+  [-] CVE-2026-59133 -- Microsoft High Performance Computing (HPC) Pack Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-59133
+  [-] CVE-2026-59132 -- Windows TCP/IP Denial of Service Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-59132
+  [-] CVE-2026-61348 -- Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-61348
+  [-] CVE-2026-61925 -- Windows Installer Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-61925
+  [-] CVE-2026-61930 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-61930
+  [-] CVE-2026-62688 -- Windows MIDI Service Module Elevation of Privileges Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62688
+  [-] CVE-2026-62696 -- Windows Program Compatibility Assistant Service Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62696
+  [-] CVE-2026-62713 -- Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62713
+  [-] CVE-2026-62712 -- Windows Win32k Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62712
+  [-] CVE-2026-62735 -- Windows HTTP.sys Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62735
+  [-] CVE-2026-62737 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62737
+  [-] CVE-2026-62783 -- Windows Remote Access Connection Manager Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62783
+  [-] CVE-2026-62766 -- Windows Kerberos Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62766
+  [-] CVE-2026-62893 -- Windows Deployment Services TFTP Server Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62893
+  [-] CVE-2026-65665 -- Microsoft SharePoint Server Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-65665
+  [-] CVE-2026-65788 -- Desktop Window Manager Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-65788
+  [-] CVE-2026-69278 -- Visual Studio Code Security Feature Bypass Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-69278
+  [-] CVE-2026-70307 -- Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-70307
+  [-] CVE-2026-70335 -- GitHub Copilot and Visual Studio Code Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-70335
+  [-] CVE-2026-66804 -- Microsoft Windows Cross Device Service Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-66804
+  [-] CVE-2026-70355 -- Microsoft SharePoint Server Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-70355
+  [-] CVE-2026-61358 -- Windows Accessibility Infrastructure (ATBroker.exe) Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-61358
+  [-] CVE-2026-61929 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-61929
+  [-] CVE-2026-62698 -- Microsoft Digest Authentication Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62698
+  [-] CVE-2026-62721 -- Windows User-Mode Power Service (UMPS) Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62721
+  [-] CVE-2026-62741 -- Windows HTTP.sys Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62741
+  [-] CVE-2026-62788 -- Windows Kernel Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62788
+  [-] CVE-2026-62823 -- Windows DHCP Server Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62823
+  [-] CVE-2026-62832 -- Windows User Profile Service Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62832
+  [-] CVE-2026-62888 -- Windows DWM Core Library Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-62888
+  [-] CVE-2026-65775 -- Windows Win32k Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-65775
+  [-] CVE-2026-59124 -- Microsoft High Performance Computing (HPC) Pack Remote Code Execution Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-59124
