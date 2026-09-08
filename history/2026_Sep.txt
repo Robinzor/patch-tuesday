@@ -1,6 +1,6 @@
 [+] Microsoft Patch Tuesday Stats
 [+] September 2026 Early Security Updates
-[+] Found a total of 181 vulnerabilities
+[+] Found a total of 204 vulnerabilities
   [-] 7 Elevation of Privilege Vulnerabilities
   [-] 0 Security Feature Bypass Vulnerabilities
   [-] 0 Remote Code Execution Vulnerabilities
@@ -10,6 +10,7 @@
   [-] 23 Edge - Chromium Vulnerabilities
 [+] Found 0 exploited in the wild
 [+] Highest Rated Vulnerabilities
+  [-] CVE-2026-0799 - 8.7 - OOBR and OOBW in libpcap before 1.10.7
   [-] CVE-2026-18329 - 8.2 - NGINX ngx_http_js_module vulnerability
   [-] CVE-2026-72649 - 8.8 - Deserialization of Untrusted Data in Elasticsearch Leading to Remote Code Execution
   [-] CVE-2026-78689 - 8.1 - NGINX ngx_http_js_module vulnerablility
@@ -24,6 +25,8 @@
   [-] CVE-2026-85507 - 9.8 - ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_info in ipmi-oem/ipmi-oem-dell.c (cmc-info subcommand to dell get-system-info).
   [-] CVE-2026-85508 - 9.8 - ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).
   [-] CVE-2026-85509 - 9.8 - FreeIPMI before 1.6.19 has a stack-based buffer overflow in _read_fru_data in libfreeipmi/fru/ipmi-fru.c when a BMC returns more bytes than requested.
+  [-] CVE-2026-86140 - 8.0 - In libxml2 before 2.15.4, xmlSnprintfElements in valid.c has a strcat stack-based buffer overflow.
+  [-] CVE-2026-86145 - 8.2 - PCRE2 before 10.48 allows a pcre2_dfa_match out-of-bounds write because reuse of a cached workspace block, in a recursive DFA matching workspace, lacks a size check (even though a newly allocated block, for the same purpose, does have a size check). This outcome requires an attacker-controlled regular expression, or a recursive pattern in conjunction with a small heap limit (this can be set through the API).
   [-] CVE-2026-62916 - 9.1 - Microsoft Entra ID Elevation of Privilege Vulnerability
   [-] CVE-2026-65818 - 8.5 - Power Automate Elevation of Privilege Vulnerability
   [-] CVE-2026-69857 - 8.5 - Azure Cosmos DB Spoofing Vulnerability
