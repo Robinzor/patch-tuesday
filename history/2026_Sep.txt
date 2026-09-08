@@ -1,0 +1,36 @@
+[+] Microsoft Patch Tuesday Stats
+[+] September 2026 Early Security Updates
+[+] Found a total of 181 vulnerabilities
+  [-] 7 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 0 Remote Code Execution Vulnerabilities
+  [-] 1 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 1 Spoofing Vulnerabilities
+  [-] 23 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2026-18329 - 8.2 - NGINX ngx_http_js_module vulnerability
+  [-] CVE-2026-72649 - 8.8 - Deserialization of Untrusted Data in Elasticsearch Leading to Remote Code Execution
+  [-] CVE-2026-78689 - 8.1 - NGINX ngx_http_js_module vulnerablility
+  [-] CVE-2026-80792 - 8.1 - ipv6: fix use-after-free in ip6_finish_output2()
+  [-] CVE-2026-80798 - 8.1 - nfc: llcp: reject PDUs shorter than the LLCP header
+  [-] CVE-2026-80799 - 8.1 - nfc: llcp: fix OOB read and u8 offset wrap in TLV parsers
+  [-] CVE-2026-80800 - 8.1 - nfc: llcp: bound the connect_sn TLV walk to the skb
+  [-] CVE-2026-80803 - 8.1 - nfc: digital: clamp SENSF_RES length to the destination buffer
+  [-] CVE-2026-80823 - 8.1 - nfc: st21nfca: validate ATR_REQ length against the received frame
+  [-] CVE-2026-85504 - 9.8 - FreeIPMI before 1.6.19 has a stack-based buffer overflow in _ipmi_sel_oem_fujitsu_get_sel_entry_long_text in libfreeipmi/sel/ipmi-sel-string-fujitsu-irmc-common.c via malformed Fujitsu SEL long-text responses.
+  [-] CVE-2026-85506 - 9.8 - ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _get_dell_system_info_idrac_info in ipmi-oem/ipmi-oem-dell.c (idrac-info subcommand to dell get-system-info).
+  [-] CVE-2026-85507 - 9.8 - ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_info in ipmi-oem/ipmi-oem-dell.c (cmc-info subcommand to dell get-system-info).
+  [-] CVE-2026-85508 - 9.8 - ipmi-oem in FreeIPMI before 1.6.19 has a stack-based buffer overflow in _output_dell_system_info_cmc_ipv6_info in ipmi-oem/ipmi-oem-dell.c (cmc-ipv6-info subcommand to dell get-system-info).
+  [-] CVE-2026-85509 - 9.8 - FreeIPMI before 1.6.19 has a stack-based buffer overflow in _read_fru_data in libfreeipmi/fru/ipmi-fru.c when a BMC returns more bytes than requested.
+  [-] CVE-2026-62916 - 9.1 - Microsoft Entra ID Elevation of Privilege Vulnerability
+  [-] CVE-2026-65818 - 8.5 - Power Automate Elevation of Privilege Vulnerability
+  [-] CVE-2026-69857 - 8.5 - Azure Cosmos DB Spoofing Vulnerability
+  [-] CVE-2026-70178 - 8.5 - Microsoft Fabric Elevation of Privilege Vulnerability
+  [-] CVE-2026-70352 - 10.0 - Azure AI Language Elevation of Privilege Vulnerability
+  [-] CVE-2026-80098 - 9.3 - Copilot Studio Elevation of Privilege Vulnerability
+  [-] CVE-2026-83711 - 10.0 - Microsoft Azure Active Directory B2C Elevation of Privilege Vulnerability
+  [-] CVE-2026-83941 - 9.9 - Entra ID Elevation of Privilege Vulnerability
+[+] Found 1 vulnerabilities more likely to be exploited
+  [-] CVE-2026-69857 -- Azure Cosmos DB Spoofing Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-69857
