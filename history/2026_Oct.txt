@@ -1,6 +1,6 @@
 [+] Microsoft Patch Tuesday Stats
 [+] October 2026 Early Security Updates
-[+] Found a total of 320 vulnerabilities
+[+] Found a total of 348 vulnerabilities
   [-] 4 Elevation of Privilege Vulnerabilities
   [-] 0 Security Feature Bypass Vulnerabilities
   [-] 2 Remote Code Execution Vulnerabilities
@@ -13,12 +13,14 @@
   [-] CVE-2026-46570 - 8.1 - In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_index_walk_down() in libntfs-3g/index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by reading the special crafted file metadata.
   [-] CVE-2026-56153 - 9.4 - Apache HTTP Server: mod_charset_lite: Heap overflow in finish_partial_char
   [-] CVE-2026-56154 - 9.8 - Apache HTTP Server: mod_rewrite use-after-free via %{LA-U:HTTP:...}
+  [-] CVE-2026-56857 - 9.8 - Root.Mkdir(All) can follow junctions out of the root on Windows in os
   [-] CVE-2026-57941 - 9.8 - Apache HTTP Server: mod_http2 use-after-free / wild write via shared session->bbtmp re-entrancy
   [-] CVE-2026-59685 - 8.2 - Apache HTTP Server: Out-of-Bounds Write in ap_directory_walk() Canonical-Name Rewrite on CASE_BLIND_FILESYSTEM
   [-] CVE-2026-59797 - 9.8 - Apache HTTP Server: mod_ssl SSLRequire allows .htaccess ap_expr file-function
   [-] CVE-2026-73636 - 8.1 - Apache HTTP Server: mod_auth_digest one-time-nonce replay attack
   [-] CVE-2026-77214 - 8.2 - libexpat Heap Buffer Over-read in xmlparse.c via XML_ParseBuffer
   [-] CVE-2026-78663 - 9.1 - Double flow control refund on HTTP/2 server streams in net/http
+  [-] CVE-2026-89091 - 8.8 - Ansible-core: ansible-core: ansible-galaxy collection install symlink path escape allows arbitrary file write / code execution
   [-] CVE-2026-93546 - 8.8 - Apache HTTP Server: mod_dav_fs namespace overflow
   [-] CVE-2026-98167 - 9.8 - smb: client: fix server->total_read for compound encrypted PDUs
   [-] CVE-2026-98168 - 9.8 - smb: client: fix reparse buffer bounds in cifs_query_reparse_point()
@@ -90,6 +92,7 @@
   [-] CVE-2026-98326 - 9.8 - wifi: mac80211: mesh: release the channel if start fails
   [-] CVE-2026-98327 - 9.8 - wifi: mac80211: mesh: reset the CSA state when leaving
   [-] CVE-2026-98328 - 9.8 - wifi: mac80211: add HE 6 GHz capability in the scan elems len
+  [-] CVE-2026-98329 - 9.8 - wifi: mac80211: don't allow injecting frames wider than the chanctx
   [-] CVE-2026-98330 - 9.8 - wifi: cfg80211: get the wiphy out of a dying network namespace
   [-] CVE-2026-98331 - 9.8 - wifi: mac80211: unlist vifs when their netdev is unregistered
   [-] CVE-2026-98332 - 9.8 - wifi: mac80211: only operate on TDLS peers in the TDLS code
