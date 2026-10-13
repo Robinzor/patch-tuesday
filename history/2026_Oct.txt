@@ -1,0 +1,122 @@
+[+] Microsoft Patch Tuesday Stats
+[+] October 2026 Early Security Updates
+[+] Found a total of 320 vulnerabilities
+  [-] 4 Elevation of Privilege Vulnerabilities
+  [-] 0 Security Feature Bypass Vulnerabilities
+  [-] 2 Remote Code Execution Vulnerabilities
+  [-] 1 Information Disclosure Vulnerabilities
+  [-] 0 Denial of Service Vulnerabilities
+  [-] 1 Spoofing Vulnerabilities
+  [-] 0 Edge - Chromium Vulnerabilities
+[+] Found 0 exploited in the wild
+[+] Highest Rated Vulnerabilities
+  [-] CVE-2026-46570 - 8.1 - In NTFS-3G before 2026.7.7, a heap buffer overflow exists in ntfs_index_walk_down() in libntfs-3g/index.c that allows an attacker to corrupt heap memory in the SUID-root ntfs-3g binary by crafting a malicious NTFS image. The overflow is triggered by reading the special crafted file metadata.
+  [-] CVE-2026-56153 - 9.4 - Apache HTTP Server: mod_charset_lite: Heap overflow in finish_partial_char
+  [-] CVE-2026-56154 - 9.8 - Apache HTTP Server: mod_rewrite use-after-free via %{LA-U:HTTP:...}
+  [-] CVE-2026-57941 - 9.8 - Apache HTTP Server: mod_http2 use-after-free / wild write via shared session->bbtmp re-entrancy
+  [-] CVE-2026-59685 - 8.2 - Apache HTTP Server: Out-of-Bounds Write in ap_directory_walk() Canonical-Name Rewrite on CASE_BLIND_FILESYSTEM
+  [-] CVE-2026-59797 - 9.8 - Apache HTTP Server: mod_ssl SSLRequire allows .htaccess ap_expr file-function
+  [-] CVE-2026-73636 - 8.1 - Apache HTTP Server: mod_auth_digest one-time-nonce replay attack
+  [-] CVE-2026-77214 - 8.2 - libexpat Heap Buffer Over-read in xmlparse.c via XML_ParseBuffer
+  [-] CVE-2026-78663 - 9.1 - Double flow control refund on HTTP/2 server streams in net/http
+  [-] CVE-2026-93546 - 8.8 - Apache HTTP Server: mod_dav_fs namespace overflow
+  [-] CVE-2026-98167 - 9.8 - smb: client: fix server->total_read for compound encrypted PDUs
+  [-] CVE-2026-98168 - 9.8 - smb: client: fix reparse buffer bounds in cifs_query_reparse_point()
+  [-] CVE-2026-98170 - 9.8 - smb: client: fix OOB struct field reads in move_smb2_ea_to_cifs()
+  [-] CVE-2026-98171 - 9.8 - smb: client: fix next_buffer UAF and NextCommand bounds in compound PDUs
+  [-] CVE-2026-98172 - 9.8 - smb: client: fix smbd_connection leak on cifs_get_tcp_session() error
+  [-] CVE-2026-98174 - 9.8 - smb: client: fix rlist race and missing initialization
+  [-] CVE-2026-98175 - 8.1 - smb: client: cancel reconnect work in clean_demultiplex_info()
+  [-] CVE-2026-98176 - 9.8 - drm/amdkfd: Avoid integer underflow with ffs in EOP ring size calc
+  [-] CVE-2026-98177 - 9.8 - drm/amdkfd: Avoid integer underflow in EOP ring size calculation.
+  [-] CVE-2026-98179 - 9.8 - drm/amdgpu: fix rmmio iounmap skipped on device removal
+  [-] CVE-2026-98180 - 9.8 - drm/msm: RCU-free the scheduler-containing ring and VM objects
+  [-] CVE-2026-98181 - 9.8 - drm/gud: fix out-of-bounds write in gud_plane_atomic_check()
+  [-] CVE-2026-98186 - 9.8 - wifi: mwifiex: bound the pairwise-cipher OUI walk to the IE length
+  [-] CVE-2026-98187 - 9.8 - wifi: p54: require a full exp_if record in PDR_INTERFACE_LIST
+  [-] CVE-2026-98188 - 9.8 - wifi: p54: validate curve data length in the calibration curve converters
+  [-] CVE-2026-98190 - 8.2 - wifi: wilc1000: fix out-of-bounds read in P2P public action frames
+  [-] CVE-2026-98191 - 9.8 - wifi: wlcore: release runtime PM ref on regdomain config failure
+  [-] CVE-2026-98192 - 9.8 - wifi: wcn36xx: Fix potential use-after-free in TX ack timer teardown
+  [-] CVE-2026-98193 - 9.8 - wifi: libipw: reject TKIP frames without a full MIC
+  [-] CVE-2026-98199 - 9.8 - hwmon: (pmbus/core) increase number of phases and add new mask
+  [-] CVE-2026-98203 - 9.8 - Input: soc_button_array - check btns_desc->package.count
+  [-] CVE-2026-98206 - 9.8 - Input: cyttsp5 - clamp the HID report size before memcpy
+  [-] CVE-2026-98207 - 9.8 - mmc: spi: reset bytes_xfered before retrying CRC failures
+  [-] CVE-2026-98209 - 9.8 - mmc: sdhci-of-aspeed: Remove children before releasing SDC resources
+  [-] CVE-2026-98211 - 9.8 - mmc: mmci: Fix use-after-free in busy-timeout work
+  [-] CVE-2026-98212 - 9.8 - mmc: hsq: Fix use-after-free in retry work
+  [-] CVE-2026-98214 - 9.8 - selinux: recheck intermediate backing files on mprotect()
+  [-] CVE-2026-98215 - 9.8 - selinux: preserve user SID across nested backing files
+  [-] CVE-2026-98217 - 9.8 - IB/mlx4: Fix use-after-free on pkey sysfs registration failure
+  [-] CVE-2026-98221 - 9.8 - KEYS: trusted: Fix tpm2_load_cmd() boundary check
+  [-] CVE-2026-98222 - 9.8 - KEYS: encrypted: fix integer overflow of datablob_len
+  [-] CVE-2026-98232 - 9.8 - scsi: core: Validate MODE SENSE lengths in scsi_cdl_enable()
+  [-] CVE-2026-98233 - 9.8 - net/packet: clear RX owner on VNET header error
+  [-] CVE-2026-98238 - 9.8 - net: wwan: t7xx: validate the netif index in t7xx_ccmni_recv_skb()
+  [-] CVE-2026-98249 - 9.8 - arm64: hibernate: pass HVC_SET_VECTORS args to the resume hvc
+  [-] CVE-2026-98251 - 9.8 - openvswitch: avoid reallocating confirmed conntrack labels
+  [-] CVE-2026-98252 - 9.8 - RDMA/core: fix refcount bug in iwpm_get_nlmsg_request()
+  [-] CVE-2026-98253 - 9.8 - RDMA/ucma: Serialize join and leave on copy_to_user failure
+  [-] CVE-2026-98254 - 9.8 - swiotlb: use the adjusted address for the highmem page lookup
+  [-] CVE-2026-98255 - 9.8 - tcp: exclude old ACKs from tcp fast path
+  [-] CVE-2026-98261 - 8.1 - cifs: Fix server use-after-free in cifs_chan_skip_or_disable()
+  [-] CVE-2026-98263 - 9.8 - ASoC: codecs: rt712-sdca-dmic: fix uninitialized stream_config->type
+  [-] CVE-2026-98269 - 9.8 - btrfs: abort transaction on failure to update inode for hole punching and reflinking
+  [-] CVE-2026-98270 - 9.8 - drm/amdgpu: check ras and obj before dereference
+  [-] CVE-2026-98272 - 9.8 - net: mvpp2: prevent buffer overflow in page_pool allocation
+  [-] CVE-2026-98275 - 9.8 - net: ethernet: cortina: Ack RX overrun interrupt correctly
+  [-] CVE-2026-98279 - 9.8 - btrfs: handle lack of space when cleaning up verity items
+  [-] CVE-2026-98282 - 9.8 - powerpc/iommu: Fix the overflow validation in iommu_tce_check_ioba
+  [-] CVE-2026-98283 - 9.8 - KVM: PPC: Book3S HV: fix use-after-free in kvmhv_emulate_tlbie_all_lpid()
+  [-] CVE-2026-98287 - 9.8 - pppoatm: ensure a writable skb header and linear data
+  [-] CVE-2026-98288 - 9.8 - net: stmmac: fix TSO header length truncation
+  [-] CVE-2026-98289 - 9.8 - af_unix: Unify scc_index when finalising SCC in __unix_walk_scc().
+  [-] CVE-2026-98292 - 9.8 - Bluetooth: btmtksdio, btmtkuart: validate WMT event length before struct access
+  [-] CVE-2026-98295 - 9.8 - Bluetooth: coredump: Quiesce dump work on unregister
+  [-] CVE-2026-98298 - 9.8 - dmaengine: mmp_pdma: fix wrong sg length in mmp_pdma_prep_slave_sg()
+  [-] CVE-2026-98301 - 9.8 - net: bridge: mst: move switchdev call outside rcu
+  [-] CVE-2026-98303 - 9.8 - ipv4: icmp: reject RTN_UNREACHABLE input routes in icmp_route_lookup
+  [-] CVE-2026-98304 - 9.8 - net: bcmgenet: restore the hardware filters on open
+  [-] CVE-2026-98308 - 9.8 - ALSA: hda: trace PCM open only after assigning a stream
+  [-] CVE-2026-98311 - 9.8 - wifi: virt_wifi: don't transfer operstate before register
+  [-] CVE-2026-98316 - 9.8 - ALSA: bcd2000: Fix race between rawmidi and disconnect
+  [-] CVE-2026-98317 - 9.8 - neighbour: Enforce min/max to NDTPA_INTERVAL_PROBE_TIME_MS.
+  [-] CVE-2026-98319 - 9.8 - drm: Fix drm_pending_vblank_event leak in error path for out_fence_ptr
+  [-] CVE-2026-98320 - 9.8 - netfilter: flowtable: hold reference on ct until flow is released
+  [-] CVE-2026-98321 - 9.8 - netfilter: nf_nat: unregister and release hooks on error
+  [-] CVE-2026-98322 - 9.8 - netfilter: nft_nat: fully initialise new_addr in netmap setup
+  [-] CVE-2026-98323 - 9.8 - RDMA/siw: Bound fragmented header copies by the remaining length
+  [-] CVE-2026-98326 - 9.8 - wifi: mac80211: mesh: release the channel if start fails
+  [-] CVE-2026-98327 - 9.8 - wifi: mac80211: mesh: reset the CSA state when leaving
+  [-] CVE-2026-98328 - 9.8 - wifi: mac80211: add HE 6 GHz capability in the scan elems len
+  [-] CVE-2026-98330 - 9.8 - wifi: cfg80211: get the wiphy out of a dying network namespace
+  [-] CVE-2026-98331 - 9.8 - wifi: mac80211: unlist vifs when their netdev is unregistered
+  [-] CVE-2026-98332 - 9.8 - wifi: mac80211: only operate on TDLS peers in the TDLS code
+  [-] CVE-2026-98333 - 9.8 - wifi: mac80211: reset the LED state when ifup fails
+  [-] CVE-2026-98335 - 9.8 - wifi: mac80211: abort chanswitch when leaving a mesh
+  [-] CVE-2026-98336 - 9.8 - wifi: mac80211: don't offload TC setup on AP_VLAN interfaces
+  [-] CVE-2026-98337 - 9.8 - wifi: mac80211: don't start a ROC while scanning
+  [-] CVE-2026-98338 - 9.8 - wifi: cfg80211: ibss: ref BSS entry for joined event
+  [-] CVE-2026-98339 - 9.8 - wifi: cfg80211: don't filter by BSS type when removing stale entries
+  [-] CVE-2026-98340 - 9.8 - wifi: cfg80211: only group hidden BSSes with beacon entries
+  [-] CVE-2026-98341 - 9.8 - wifi: cfg80211: don't free driver-owned scan requests
+  [-] CVE-2026-98345 - 9.8 - wifi: cfg80211: check IP header size in cfg80211_classify8021d()
+  [-] CVE-2026-98348 - 9.8 - wifi: libipw: reject too-short association responses
+  [-] CVE-2026-98351 - 9.8 - wifi: virt_wifi: free skb when disconnected
+  [-] CVE-2026-98352 - 9.8 - RDMA/rtrs-clt: Fix CQ pool leak when connect is interrupted
+  [-] CVE-2026-98353 - 9.8 - RDMA/erdma: Use IRQ-safe XArray helpers for QP and CQ tables
+  [-] CVE-2026-98362 - 9.8 - clk: scpi: bound-check DVFS index in scpi_dvfs_recalc_rate
+  [-] CVE-2026-98363 - 9.8 - firmware: arm_scpi: reject DVFS OPP count above MAX_DVFS_OPPS
+  [-] CVE-2026-98365 - 9.8 - RDMA/rxe: Fix integer overflow in mr_check_range() leading to OOB access
+  [-] CVE-2026-98368 - 9.8 - esp: downgrade zerocopy managed frags before mutating skb frags
+  [-] CVE-2026-98370 - 9.8 - xfrm: fix compat ALLOCSPI request use-after-free
+  [-] CVE-2026-69435 - 9.6 - Azure SRE Agent Elevation of Privilege Vulnerability
+  [-] CVE-2026-77900 - 9.8 - Azure App Service Remote Code Execution Vulnerability
+  [-] CVE-2026-83943 - 8.7 - Azure API Center Information Disclosure Vulnerability
+  [-] CVE-2026-88131 - 9.8 - Microsoft Dataverse Remote Code Execution Vulnerability
+  [-] CVE-2026-94510 - 9.9 - Microsoft Bookings Elevation of Privilege Vulnerability
+  [-] CVE-2026-96207 - 10.0 - Microsoft Partner Center Elevation of Privilege Vulnerability
+  [-] CVE-2026-96940 - 8.8 - Microsoft Exchange Server Elevation of Privilege Vulnerability
+[+] Found 1 vulnerabilities more likely to be exploited
+  [-] CVE-2026-96940 -- Microsoft Exchange Server Elevation of Privilege Vulnerability - https://www.cve.org/CVERecord?id=CVE-2026-96940
